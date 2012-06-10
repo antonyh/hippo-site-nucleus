@@ -1,0 +1,175 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Hutchison Technical Hippo Project site
+
+
+From: 'an unknown organization'
+  - AOP alliance (http://aopalliance.sourceforge.net) aopalliance:aopalliance:jar:1.0
+    License: Public Domain 
+  - Gson (http://code.google.com/p/google-gson/) com.google.code.gson:gson:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JAXB RI (https://jaxb.dev.java.net/) com.sun.xml.bind:jaxb-impl:jar:2.1.13
+    License: CDDL 1.0  (https://glassfish.dev.java.net/public/CDDL+GPL.html)    License: GPL2 w/ CPE  (https://glassfish.dev.java.net/public/CDDL+GPL.html)
+  - jstl  javax.servlet:jstl:jar:1.1.2
+
+  - jaxb-api  javax.xml.bind:jaxb-api:jar:2.1
+
+  - jdom  jdom:jdom:jar:1.0
+
+  - HtmlCleaner (http://htmlcleaner.sourceforge.net/) net.sourceforge.htmlcleaner:htmlcleaner:jar:2.1
+    License: BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+  - AspectJ weaver (http://www.aspectj.org) org.aspectj:aspectjweaver:jar:1.6.9
+    License: Eclipse Public License - v 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+  - Jettison (http://codehaus.org/jettison/) org.codehaus.jettison:jettison:bundle:1.3
+
+  - FreeMarker (http://freemarker.org) org.freemarker:freemarker:jar:2.3.18
+    License: BSD-style license  (http://freemarker.org/LICENSE.txt)
+  - spring-aop  org.springframework:spring-aop:jar:3.0.4.RELEASE
+
+  - spring-asm  org.springframework:spring-asm:jar:3.0.4.RELEASE
+
+  - spring-beans  org.springframework:spring-beans:jar:3.0.4.RELEASE
+
+  - spring-context  org.springframework:spring-context:jar:3.0.4.RELEASE
+
+  - spring-context-support  org.springframework:spring-context-support:jar:3.0.4.RELEASE
+
+  - spring-core  org.springframework:spring-core:jar:3.0.4.RELEASE
+
+  - spring-expression  org.springframework:spring-expression:jar:3.0.4.RELEASE
+
+  - spring-web  org.springframework:spring-web:jar:3.0.4.RELEASE
+
+  - spring-webmvc  org.springframework:spring-webmvc:jar:3.0.4.RELEASE
+
+  - StAX (http://stax.codehaus.org/) stax:stax:jar:1.2.0
+
+  - standard  taglibs:standard:jar:1.1.2
+
+  - WSDL4J (http://sf.net/projects/wsdl4j) wsdl4j:wsdl4j:jar:1.6.2
+    License: CPL  (http://www.opensource.org/licenses/cpl1.0.txt)
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Stax2 API (http://woodstox.codehaus.org/StAX2) org.codehaus.woodstox:stax2-api:jar:3.1.1
+    License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+  - Woodstox (http://woodstox.codehaus.org) org.codehaus.woodstox:woodstox-core-asl:jar:4.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'FasterXML' (http://fasterxml.com)
+  - Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-core-asl:jar:1.3.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JAX-RS provider for JSON content type (http://jackson.codehaus.org) org.codehaus.jackson:jackson-jaxrs:jar:1.3.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: GNU Lesser General Public License (LGPL), Version 2.1  (http://www.fsf.org/licensing/licenses/lgpl.txt)
+  - Data Mapper for Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-mapper-asl:jar:1.3.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Xml Compatibility extensions for Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-xc:jar:1.3.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: GNU Lesser General Public License (LGPL), Version 2.1  (http://www.fsf.org/licensing/licenses/lgpl.txt)
+
+From: 'Hippo' (http://www.onehippo.com/)
+  - Repository Connector (http://www.onehippo.org/cms7/hippo-repository/hippo-repository-connector/) org.onehippo.cms7:hippo-repository-connector:jar:2.22.05
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit Client (http://www.onehippo.org/site-toolkit/hst-client/) org.onehippo.cms7.hst:hst-client:jar:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit Content Beans (http://www.onehippo.org/site-toolkit/hst-content-beans/) org.onehippo.cms7.hst:hst-content-beans:jar:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit REST Models (http://www.onehippo.org/site-toolkit/hst-rest-api/) org.onehippo.cms7.hst:hst-rest-api:jar:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit Client Module CMS REST Service (http://www.onehippo.org/site-toolkit/client-modules/hst-cms-rest/) org.onehippo.cms7.hst.client-modules:hst-cms-rest:jar:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit Client Module Page Composer (http://www.onehippo.org/site-toolkit/client-modules/hst-page-composer/) org.onehippo.cms7.hst.client-modules:hst-page-composer:jar:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit Core Component (http://www.onehippo.org/site-toolkit/components/hst-core/) org.onehippo.cms7.hst.components:hst-core:jar:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit JAX-RS Services Component (http://www.onehippo.org/site-toolkit/components/hst-jaxrs/) org.onehippo.cms7.hst.components:hst-jaxrs:jar:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit Content Rewriter Component (http://www.onehippo.org/site-toolkit/components/hst-rewriter/) org.onehippo.cms7.hst.components:hst-rewriter:jar:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit Security Component (http://www.onehippo.org/site-toolkit/components/hst-security/) org.onehippo.cms7.hst.components:hst-security:jar:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit JCR Session Pool Component (http://www.onehippo.org/site-toolkit/components/hst-session-pool/) org.onehippo.cms7.hst.components:hst-session-pool:jar:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit Dependencies For Client (http://www.onehippo.org/site-toolkit/dependencies/hst-client-dependencies/) org.onehippo.cms7.hst.dependencies:hst-client-dependencies:pom:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit Dependencies For Server (http://www.onehippo.org/site-toolkit/dependencies/hst-server-dependencies/) org.onehippo.cms7.hst.dependencies:hst-server-dependencies:pom:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hippo Site Toolkit Dependencies For Spring Framework (http://www.onehippo.org/site-toolkit/dependencies/hst-spring-dependencies/) org.onehippo.cms7.hst.dependencies:hst-spring-dependencies:pom:2.24.04
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Sun Microsystems, Inc' (http://www.sun.com/)
+  - jsr311-api (https://jsr311.dev.java.net) javax.ws.rs:jsr311-api:jar:1.1
+    License: CDDL License  (http://www.opensource.org/licenses/cddl1.php)
+
+From: 'Terracotta, Inc.' (http://www.terracotta.org)
+  - Ehcache Core (http://ehcache.org) net.sf.ehcache:ehcache-core:jar:2.4.5
+    License: The Apache Software License, Version 2.0  (src/assemble/EHCACHE-CORE-LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://jakarta.apache.org)
+  - Commons JEXL (http://jakarta.apache.org/commons/jexl/) commons-jexl:commons-jexl:jar:1.1
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org)
+  - Apache Geronimo STAX Spec 1.2 (http://geronimo.apache.org/maven/specs/geronimo-stax-api_1.2_spec/1.1) org.apache.geronimo.specs:geronimo-stax-api_1.2_spec:bundle:1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache JAMES Mime4j (http://james.apache.org/mime4j) org.apache.james:apache-mime4j:jar:0.6
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons BeanUtils (http://commons.apache.org/beanutils/) commons-beanutils:commons-beanutils:jar:1.8.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Codec (http://commons.apache.org/codec/) commons-codec:commons-codec:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Collections (http://commons.apache.org/collections/) commons-collections:commons-collections:jar:3.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Configuration (http://commons.apache.org/configuration/) commons-configuration:commons-configuration:jar:1.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Digester (http://commons.apache.org/digester/) commons-digester:commons-digester:jar:1.8.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons IO (http://commons.apache.org/io/) commons-io:commons-io:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Lang (http://commons.apache.org/lang/) commons-lang:commons-lang:jar:2.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Pool (http://commons.apache.org/pool/) commons-pool:commons-pool:jar:1.5.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Proxy (http://commons.apache.org/proxy/) org.apache.commons:commons-proxy:bundle:1.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF API (http://cxf.apache.org) org.apache.cxf:cxf-api:jar:2.3.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Common Schemas (http://cxf.apache.org/) org.apache.cxf:cxf-common-schemas:jar:2.3.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Common Utilities (http://cxf.apache.org) org.apache.cxf:cxf-common-utilities:jar:2.3.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime XML Binding (http://cxf.apache.org) org.apache.cxf:cxf-rt-bindings-xml:jar:2.3.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime Core (http://cxf.apache.org) org.apache.cxf:cxf-rt-core:jar:2.3.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime JAX-RS Frontend (http://cxf.apache.org) org.apache.cxf:cxf-rt-frontend-jaxrs:jar:2.3.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime Transport Common Used Classes (http://cxf.apache.org) org.apache.cxf:cxf-rt-transports-common:jar:2.3.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache CXF Runtime HTTP Transport (http://cxf.apache.org) org.apache.cxf:cxf-rt-transports-http:jar:2.3.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Jackrabbit API (http://jackrabbit.apache.org/jackrabbit-parent/jackrabbit-api/) org.apache.jackrabbit:jackrabbit-api:bundle:2.2.10-h4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit JCR Commons (http://jackrabbit.apache.org/jackrabbit-parent/jackrabbit-jcr-commons/) org.apache.jackrabbit:jackrabbit-jcr-commons:bundle:2.2.10-h4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit JCR-RMI (http://jackrabbit.apache.org/jackrabbit-parent/jackrabbit-jcr-rmi/) org.apache.jackrabbit:jackrabbit-jcr-rmi:bundle:2.2.10-h4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit JCR to SPI (http://jackrabbit.apache.org/jackrabbit-parent/jackrabbit-jcr2spi/) org.apache.jackrabbit:jackrabbit-jcr2spi:bundle:2.2.10-h4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit SPI (http://jackrabbit.apache.org/jackrabbit-parent/jackrabbit-spi/) org.apache.jackrabbit:jackrabbit-spi:bundle:2.2.10-h4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit SPI Commons (http://jackrabbit.apache.org/jackrabbit-parent/jackrabbit-spi-commons/) org.apache.jackrabbit:jackrabbit-spi-commons:bundle:2.2.10-h4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit SPI to JCR (http://jackrabbit.apache.org/jackrabbit-parent/jackrabbit-spi2jcr/) org.apache.jackrabbit:jackrabbit-spi2jcr:jar:2.2.10-h4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Neethi (http://ws.apache.org/commons/neethi/) org.apache.neethi:neethi:bundle:2.0.5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - XmlSchema (http://ws.apache.org/commons/XmlSchema) org.apache.ws.commons.schema:XmlSchema:bundle:1.4.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

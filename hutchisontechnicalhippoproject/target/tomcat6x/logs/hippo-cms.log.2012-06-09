@@ -1,0 +1,4 @@
+09.06.2012 16:12:37 INFO  [org.hippoecm.repository.updater.UpdaterEngine.prepare():382] Migration cycle starting with version tags: v19a v18a-publication-workflow v19a-cms-gallery hst-2_1_2 v18a-hst-config-editor v19a-gallerypicker v19-cms
+09.06.2012 16:12:37 INFO  [org.hippoecm.repository.updater.UpdaterEngine.migrate():637] migration cycle finished successfully
+09.06.2012 16:12:45 INFO  [org.onehippo.cms7.autoexport.InitializeItem.initContentResourceValues():215] Content resource configuration/richtextconfig/xinha.xml uses unrecognized delta xml semantics; export in this context will be disabled.
+09.06.2012 16:12:45 INFO  [org.onehippo.cms7.autoexport.EventProcessor.<init>():122] Automatically exporting changes to repository path / to directory /Users/antonyh/Desktop/hippo/hutchisontechnicalhippoproject/content/src/main/resources
