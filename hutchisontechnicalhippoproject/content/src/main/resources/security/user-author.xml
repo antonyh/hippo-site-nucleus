@@ -7,7 +7,7 @@
     <sv:value>true</sv:value>
   </sv:property>
   <sv:property sv:name="hipposys:password" sv:type="String">
-    <sv:value>author1</sv:value>
+    <sv:value>author</sv:value>
   </sv:property>
   <sv:property sv:name="hipposys:securityprovider" sv:type="String">
     <sv:value>internal</sv:value>
