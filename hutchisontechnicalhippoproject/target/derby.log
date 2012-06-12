@@ -34,3 +34,23 @@ user.dir=/Users/antonyh/Desktop/hippo/hutchisontechnicalhippoproject
 derby.system.home=null
 derby.stream.error.file=/Users/antonyh/Desktop/hippo/hutchisontechnicalhippoproject/target/derby.log
 Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Jun 12 18:52:37 BST 2012:
+Shutting down instance 888c4022-0137-d1cd-b46b-000005e948b8 on database directory /Users/antonyh/Desktop/hippo/hutchisontechnicalhippoproject/myrepo/workspaces/default/db with class loader WebappClassLoader
+  context: /cms
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@2820224a
+ 
+----------------------------------------------------------------
+Tue Jun 12 18:52:37 BST 2012:
+Shutting down instance a816c00e-0137-d1cd-b46b-000005e948b8 on database directory /Users/antonyh/Desktop/hippo/hutchisontechnicalhippoproject/myrepo/version/db with class loader WebappClassLoader
+  context: /cms
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@2820224a
+ 

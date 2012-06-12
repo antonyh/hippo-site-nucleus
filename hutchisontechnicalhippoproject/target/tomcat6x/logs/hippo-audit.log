@@ -1,0 +1,3 @@
+12.06.2012 18:47:38 INFO  [org.hippoecm.frontend.AuditLogger.logHippoEvent():33] {"message":"admin logged in","category":"security","application":"cms","action":"login","user":"admin"}
+12.06.2012 18:48:27 INFO  [org.hippoecm.frontend.AuditLogger.logHippoEvent():33] {"message":"admin logged in","category":"security","application":"cms","action":"login","user":"admin"}
+12.06.2012 18:50:05 INFO  [org.hippoecm.frontend.AuditLogger.logHippoEvent():33] {"message":"admin logged in","category":"security","application":"console","action":"login","user":"admin"}

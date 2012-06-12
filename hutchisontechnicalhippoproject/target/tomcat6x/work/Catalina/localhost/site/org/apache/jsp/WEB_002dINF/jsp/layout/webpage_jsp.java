@@ -98,7 +98,6 @@ public final class webpage_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\" type=\"text/css\"/>\n");
       out.write("  </head>\n");
       out.write("  <body>\n");
-      out.write("  x\n");
       out.write("    ");
       if (_jspx_meth_hst_005finclude_005f0(_jspx_page_context))
         return;
@@ -147,7 +146,7 @@ public final class webpage_jsp extends org.apache.jasper.runtime.HttpJspBase
     org.hippoecm.hst.tag.HstIncludeTag _jspx_th_hst_005finclude_005f0 = (org.hippoecm.hst.tag.HstIncludeTag) _005fjspx_005ftagPool_005fhst_005finclude_0026_005fref_005fnobody.get(org.hippoecm.hst.tag.HstIncludeTag.class);
     _jspx_th_hst_005finclude_005f0.setPageContext(_jspx_page_context);
     _jspx_th_hst_005finclude_005f0.setParent(null);
-    // /WEB-INF/jsp/layout/webpage.jsp(12,4) name = ref type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/jsp/layout/webpage.jsp(11,4) name = ref type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_hst_005finclude_005f0.setRef("header");
     int _jspx_eval_hst_005finclude_005f0 = _jspx_th_hst_005finclude_005f0.doStartTag();
     if (_jspx_th_hst_005finclude_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
@@ -166,7 +165,7 @@ public final class webpage_jsp extends org.apache.jasper.runtime.HttpJspBase
     org.hippoecm.hst.tag.HstIncludeTag _jspx_th_hst_005finclude_005f1 = (org.hippoecm.hst.tag.HstIncludeTag) _005fjspx_005ftagPool_005fhst_005finclude_0026_005fref_005fnobody.get(org.hippoecm.hst.tag.HstIncludeTag.class);
     _jspx_th_hst_005finclude_005f1.setPageContext(_jspx_page_context);
     _jspx_th_hst_005finclude_005f1.setParent(null);
-    // /WEB-INF/jsp/layout/webpage.jsp(13,4) name = ref type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/jsp/layout/webpage.jsp(12,4) name = ref type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_hst_005finclude_005f1.setRef("main");
     int _jspx_eval_hst_005finclude_005f1 = _jspx_th_hst_005finclude_005f1.doStartTag();
     if (_jspx_th_hst_005finclude_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
@@ -185,7 +184,7 @@ public final class webpage_jsp extends org.apache.jasper.runtime.HttpJspBase
     org.hippoecm.hst.tag.HeadContributionsTag _jspx_th_hst_005fheadContributions_005f1 = (org.hippoecm.hst.tag.HeadContributionsTag) _005fjspx_005ftagPool_005fhst_005fheadContributions_0026_005fcategoryIncludes_005fnobody.get(org.hippoecm.hst.tag.HeadContributionsTag.class);
     _jspx_th_hst_005fheadContributions_005f1.setPageContext(_jspx_page_context);
     _jspx_th_hst_005fheadContributions_005f1.setParent(null);
-    // /WEB-INF/jsp/layout/webpage.jsp(14,4) name = categoryIncludes type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/jsp/layout/webpage.jsp(13,4) name = categoryIncludes type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_hst_005fheadContributions_005f1.setCategoryIncludes("scripts");
     int _jspx_eval_hst_005fheadContributions_005f1 = _jspx_th_hst_005fheadContributions_005f1.doStartTag();
     if (_jspx_th_hst_005fheadContributions_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
