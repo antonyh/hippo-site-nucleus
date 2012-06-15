@@ -1,5 +1,5 @@
 <%@ include file="/WEB-INF/jspf/htmlTags.jspf" %>
-<%--@elvariable id="info" type="com.antonyh.hutchisontechnical.hippo.componentsinfo.ListInfo"--%>
+<%--@elvariable id="info" type="org.example.componentsinfo.ListInfo"--%>
 <%--@elvariable id="result" type="org.hippoecm.hst.content.beans.query.HstQueryResult"--%>
 
 <c:choose>
@@ -7,9 +7,9 @@
     <tag:pagenotfound/>
   </c:when>
   <c:otherwise>
-    <div class=${info.cssClass}>
+    <div class="${info.cssClass}">
       <p>${info.title}</p>
-    
+
       <ul>
         <c:forEach var="item" items="${result.hippoBeans}" varStatus="counter">
           <c:if test="${counter.index == 0}">
@@ -37,7 +37,7 @@
           </c:if>
         </c:forEach>
       </ul>
-    
+
       <ul>
         <c:forEach var="item" items="${result.hippoBeans}" varStatus="counter">
           <c:if test="${counter.index > 0}">
@@ -50,7 +50,7 @@
             </li>
           </c:if>
         </c:forEach>
-    
+
       </ul>
     </div>
   </c:otherwise>

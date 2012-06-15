@@ -9,9 +9,9 @@ import org.hippoecm.hst.core.component.HstResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Header extends BaseHstComponent {
+public class Footer extends BaseHstComponent {
 
-    public static final Logger log = LoggerFactory.getLogger(Header.class);
+    public static final Logger log = LoggerFactory.getLogger(Footer.class);
 
     @Override
     public void doBeforeRender(final HstRequest request, final HstResponse response) throws HstComponentException {
@@ -23,9 +23,6 @@ public class Header extends BaseHstComponent {
         } else {
             log.warn("No channel info available for website '{}'", mount.getMountPath());
         }
-
-        request.setAttribute("topmenu",request.getRequestContext().getHstSiteMenus().getSiteMenu("main"));
-
     }
 
 }

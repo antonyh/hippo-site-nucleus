@@ -4,18 +4,15 @@
 <%@ taglib prefix="tag" tagdir="/WEB-INF/tags" %>
 
 <%@ attribute name="siteMenuItem" type="org.hippoecm.hst.core.sitemenu.HstSiteMenuItem" rtexprvalue="true" required="true"%>
-
+<hst:link var="link" link="${siteMenuItem.hstLink}"/>
+<c:if test="${empty link}">
+  <c:set var="link" value="${siteMenuItem.externalLink}"/>
+</c:if>
 <c:choose>
   <c:when test="${siteMenuItem.selected}">
-    <b><c:out value="${siteMenuItem.name}"/></b>
+    <a href="${link}" class="selected"><c:out value="${siteMenuItem.name}"/></a>
   </c:when>
   <c:otherwise>
-    <c:set var="link">
-      <c:choose>
-        <c:when test="${not empty siteMenuItem.externalLink}">${siteMenuItem.externalLink}</c:when>
-        <c:otherwise><hst:link link="${siteMenuItem.hstLink}"/></c:otherwise>
-      </c:choose>
-    </c:set>
     <a href="${link}"><c:out value="${siteMenuItem.name}"/></a>
   </c:otherwise>
 </c:choose>

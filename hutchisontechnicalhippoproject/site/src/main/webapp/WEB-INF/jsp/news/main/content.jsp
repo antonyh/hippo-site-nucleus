@@ -1,5 +1,5 @@
 <%@ include file="/WEB-INF/jspf/htmlTags.jspf" %>
-<%--@elvariable id="document" type="com.antonyh.hutchisontechnical.hippo.beans.NewsDocument"--%>
+<%--@elvariable id="document" type="org.example.beans.NewsDocument"--%>
 
 <c:choose>
   <c:when test="${empty document}">
@@ -12,9 +12,10 @@
       </hst:element>
       <hst:headContribution keyHint="headTitle" element="${headTitle}"/>
     </c:if>
-    
+
     <hst:cmseditlink hippobean="${document}"/>
-    <h2>${document.title}</h2>
+    <div class="grid_7 push_1 pagetitle"><h2>${document.title}</h2></div>
+    <div class="grid_5 push_3">
     <c:if test="${hst:isReadable(document, 'date.time')}">
       <p><fmt:formatDate value="${document.date.time}" type="Date"/></p>
     </c:if>
@@ -30,5 +31,7 @@
         ${document.image.description}
       </p>
     </c:if>
+    </div>
   </c:otherwise>
 </c:choose>
+hey

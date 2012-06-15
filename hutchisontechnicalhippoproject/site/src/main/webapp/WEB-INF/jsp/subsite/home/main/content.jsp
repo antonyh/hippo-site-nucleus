@@ -1,5 +1,5 @@
 <%@ include file="/WEB-INF/jspf/htmlTags.jspf" %>
-<%--@elvariable id="document" type="com.antonyh.hutchisontechnical.hippo.beans.TextDocument"--%>
+<%--@elvariable id="document" type="org.example.beans.TextDocument"--%>
 <%--@elvariable id="headTitle" type="java.lang.String"--%>
 
 <c:choose>

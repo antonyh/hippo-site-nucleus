@@ -1,6 +1,6 @@
 <%@ include file="/WEB-INF/jspf/htmlTags.jspf" %>
 <%--@elvariable id="crPage" type="java.lang.Integer"--%>
-<%--@elvariable id="info" type="com.antonyh.hutchisontechnical.hippo.componentsinfo.GeneralListInfo"--%>
+<%--@elvariable id="info" type="org.example.componentsinfo.GeneralListInfo"--%>
 <%--@elvariable id="pages" type="java.util.Collection<java.lang.Integer>"--%>
 <%--@elvariable id="query" type="java.lang.String"--%>
 <%--@elvariable id="result" type="org.hippoecm.hst.content.beans.query.HstQueryResult"--%>
@@ -16,8 +16,8 @@
       </hst:element>
       <hst:headContribution keyHint="headTitle" element="${headTitle}"/>
     </c:if>
-    
-    <h2>
+
+    <h2 class="pagetitle">
       ${info.title} for '<c:out value="${query}"/>' : ${result.totalSize} results
     </h2>
     <ul>
@@ -35,9 +35,9 @@
         </li>
       </c:forEach>
     </ul>
-    
+
     <!--if there are pages on the request, they will be printed by the tag:pages -->
     <tag:pages pages="${pages}" page="${page}" query="${query}"/>
-    
+
   </c:otherwise>
 </c:choose>
