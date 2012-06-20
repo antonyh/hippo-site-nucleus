@@ -498,48 +498,6 @@
     </sv:property> 
   </sv:node>  
   <!-- Content -->  
-  <sv:node sv:name="hutchisontechnicalhippoproject-documents"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>10400</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>content/documents/hutchisontechnicalhippoproject.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/content/documents</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hutchisontechnicalhippoproject-common"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>10404</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>content/documents/hutchisontechnicalhippoproject/common.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/content/documents/hutchisontechnicalhippoproject</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hutchisontechnicalhippoproject-news"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>10404.1</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>content/documents/hutchisontechnicalhippoproject/news.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/content/documents/hutchisontechnicalhippoproject</sv:value> 
-    </sv:property> 
-  </sv:node>  
   <!-- Gallery -->  
   <sv:node sv:name="hutchisontechnicalhippoproject-gallery"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
@@ -840,63 +798,147 @@
       <sv:value>/hst:hst/hst:configurations/hutchisontechnicalhippoproject/hst:components</sv:value> 
     </sv:property> 
   </sv:node>  
-  <sv:node sv:name="hutchisontechnicalhippoproject-hippo-namespaces-hutchisontechnicalhippoproject-articledocument">
+  <sv:node sv:name="hutchisontechnicalhippoproject-hippo-namespaces-hutchisontechnicalhippoproject-articledocument"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>10052.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>namespaces/hutchisontechnicalhippoproject/articledocument.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hippo:namespaces/hutchisontechnicalhippoproject</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hutchisontechnicalhippoproject-content-assets-assets-hippo-translation"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>10055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/assets/assets/translation.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/assets/assets</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hutchisontechnicalhippoproject-content-assets-assets"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>10054.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/assets/assets.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/assets</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hutchisontechnicalhippoproject-content-gallery-hutchisontechnicalhippoproject-articles"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>10501.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/gallery/hutchisontechnicalhippoproject/articles.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/gallery/hutchisontechnicalhippoproject</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hutchisontechnicalhippoproject-content-documents-hutchisontechnical-hippotranslation-translations"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>10055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/hutchisontechnical/translations.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/hutchisontechnical</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hutchisontechnicalhippoproject-content-documents-hutchisontechnical-articles"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>10055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/hutchisontechnical/articles.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/hutchisontechnical</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hutchisontechnicalhippoproject-content-documents-hutchisontechnical-news"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>10055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/hutchisontechnical/news.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/hutchisontechnical</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hutchisontechnicalhippoproject-content-documents-hutchisontechnical"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>10054.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/hutchisontechnical.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hutchisontechnicalhippoproject-content-documents-hutchisontechnical-common"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>10055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/hutchisontechnical/common.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/hutchisontechnical</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hutchisontechnicalhippoproject-hst-hst-hst-configurations-hutchisontechnicalhippoproject-hst-components-home">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>10052.0</sv:value>
+      <sv:value>10060.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>namespaces/hutchisontechnicalhippoproject/articledocument.xml</sv:value>
+      <sv:value>hst/configurations/hutchisontechnicalhippoproject/components/home.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/hutchisontechnicalhippoproject</sv:value>
+      <sv:value>/hst:hst/hst:configurations/hutchisontechnicalhippoproject/hst:components</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="hutchisontechnicalhippoproject-content-documents-hutchisontechnicalhippoproject-articles">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>10401.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/hutchisontechnicalhippoproject/articles.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/hutchisontechnicalhippoproject</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="hutchisontechnicalhippoproject-content-assets-assets-hippo-translation">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>10055.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/assets/assets/translation.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/assets/assets</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="hutchisontechnicalhippoproject-content-assets-assets">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>10054.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/assets/assets.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/assets</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="hutchisontechnicalhippoproject-content-gallery-hutchisontechnicalhippoproject-articles">
+  <sv:node sv:name="hutchisontechnicalhippoproject-content-gallery-hutchisontechnicalhippoproject-photos">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -904,7 +946,7 @@
       <sv:value>10501.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/gallery/hutchisontechnicalhippoproject/articles.xml</sv:value>
+      <sv:value>content/gallery/hutchisontechnicalhippoproject/photos.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/content/gallery/hutchisontechnicalhippoproject</sv:value>

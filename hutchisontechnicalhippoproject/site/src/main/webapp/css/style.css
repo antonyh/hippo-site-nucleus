@@ -99,6 +99,11 @@ div.sitetitle{
 	opacity:0.7;
 	filter:alpha(opacity=70); /* For IE8 and earlier */
 	font-weight:bold;
+
+/* 	-moz-transform:rotate(-1.5deg); */
+/* 	-webkit-transform:rotate(-1.5deg); */
+/* 	-o-transform:rotate(-1.5deg); */
+/* 	-ms-transform:rotate(-1.5deg); */
 }
 
 div.sitesubtitle{
@@ -130,6 +135,11 @@ div#nav	{
 	background-color:#9bb3cb;
 	z-index:-57;
 	padding-left:1em;
+
+}
+
+hr {
+	clear:both;
 }
 
 nav a, nav b{
@@ -266,13 +276,15 @@ ul.hst-container li {
 /* home */
 
 div.imageblock {
-	margin:0px;
+	xmargin:0px;
 	background-color:#f2f3f4;
-    margin:0px;
-	margin-bottom:1em;
+    xmargin:0px;
+	xmargin-bottom:1em;
 	vertical-align:bottom;
-	width:300px;
+	xwidth:300px;
 	height:225px;
+	background-size:300px 225px;
+	background-repeat:no-repeat;
 }
 
 div.imageblock div{
@@ -281,7 +293,7 @@ div.imageblock div{
 	vertical-align:bottom;
 	margin-top:154px;
 	padding-top:0.2em;
-	padding-left:0.5em;
+	xpadding-left:0.5em;
 	background-color: silver;
 	color:black;
 	height:54px;
@@ -289,6 +301,14 @@ div.imageblock div{
 	font-size:80%;
 	opacity:0.75;
 	filter:alpha(opacity=75); /* For IE8 and earlier */
+	overflow:hidden;
+	padding-left:0.4em;
+	padding-right:0.4em;
+	text-align:right;
+}
+
+div.homebody {
+	margin-bottom:1.5em;
 }
 
 @media print {

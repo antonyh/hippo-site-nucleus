@@ -503,6 +503,7 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>6dc61863-d802-444e-a896-6fcdb9f4cb69</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -512,10 +513,10 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>unpublished</sv:value>
+          <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>new</sv:value>
+          <sv:value>live</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -528,6 +529,9 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2012-06-20T01:35:57.104+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>cea9ec45-6218-4a76-838b-a175e3e69d34</sv:value>

@@ -6,14 +6,14 @@
 
 <div id="nav" class="container_12">
 <nav class="grid_12 push_0 alpha omega">
-<!-- <a href="#">Home</a> -->
-<!-- <a href="#">Info</a> -->
-<!-- <a href="#">Events</a> -->
-<!-- <a href="#">Tech</a> -->
-<!-- <a href="#">CMS & ECM</a> -->
-<!-- <a href="#">Services</a> -->
-<!-- <a href="#">Links</a> -->
-<!-- <a href="#">Contact</a> -->
+<a href="#">Home</a>
+<a href="#">Info</a>
+<a href="#">Events</a>
+<a href="#">Tech</a>
+<a href="#">CMS & ECM</a>
+<a href="#">Services</a>
+<a href="#">Links</a>
+<a href="#">Contact</a>
 <c:forEach var="item" items="${topmenu.siteMenuItems}">
 <tag:menuitem siteMenuItem="${item}"/>
 </c:forEach>

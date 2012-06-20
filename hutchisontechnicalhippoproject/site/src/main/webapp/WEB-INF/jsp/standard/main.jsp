@@ -1,5 +1,5 @@
 <%@ include file="/WEB-INF/jspf/htmlTags.jspf" %>
-MUSHROOM
+
 <div id="main" class="container_12">
 <!--     <div id="leftmenu" class="grid_2 push_8"> -->
 <%-- <hst:include ref="leftmenu"/> --%>
