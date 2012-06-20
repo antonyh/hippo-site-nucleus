@@ -1,3 +1,3 @@
 <footer>
-<div class="container_12">Footer 4x</div>
+<div class="container_12">Hutchison Technical</div>
 </footer>

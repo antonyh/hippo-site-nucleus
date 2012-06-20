@@ -99,7 +99,7 @@ div.sitetitle{
 	opacity:0.7;
 	filter:alpha(opacity=70); /* For IE8 and earlier */
 	font-weight:bold;
-
+text-shadow: 0 0 24px #000, 0 0 4px #fff, 1px 1px 2px #333;
 /* 	-moz-transform:rotate(-1.5deg); */
 /* 	-webkit-transform:rotate(-1.5deg); */
 /* 	-o-transform:rotate(-1.5deg); */
@@ -179,9 +179,10 @@ footer{
 	margin-top:3.7em;
 	padding:0.4em;
 	bottom:0em;
-	background-color:#eeeeee;
+	background-color:#D7E2ED;
 	border-top:0.4em solid white;
 	z-index:3;
+	font-size:80%;
 }
 
 
@@ -294,17 +295,20 @@ div.imageblock div{
 	margin-top:154px;
 	padding-top:0.2em;
 	xpadding-left:0.5em;
-	background-color: silver;
-	color:black;
-	height:54px;
+	background-color: #333;
+	color:white;
+	height:4.1em;
 	font-weight:normal;
-	font-size:80%;
-	opacity:0.75;
+	font-size:75%;
+	opacity:0.8;
 	filter:alpha(opacity=75); /* For IE8 and earlier */
 	overflow:hidden;
 	padding-left:0.4em;
 	padding-right:0.4em;
 	text-align:right;
+	border:1px black solid;
+/* 	text-shadow: 0 -1px #fff, 1px 0 #888, 0 1px #555, -1px 0 #fff; */
+/* 	text-shadow: 0 0 24px #000, 0 0 4px #eee, 1px 1px 2px #333; */
 }
 
 div.homebody {
