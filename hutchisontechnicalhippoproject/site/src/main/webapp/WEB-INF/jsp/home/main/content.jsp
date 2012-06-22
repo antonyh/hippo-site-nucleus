@@ -69,11 +69,12 @@
           	<c:catch var="exception">
 				<c:if test="${not empty item.image}">
 					<hst:link var="img" hippobean="${item.image.original}"/>
+					<hst:link var="link" hippobean="${item}"/>
+					<a href="${link}">
 	      			<div class="imageblock grid_4 alpha homebody" style="background-image:url('${img}');">
-
 						<div>${item.summary}</div>
-
 					</div>
+					</a>
 				</c:if>
 			</c:catch>
       </c:forEach>

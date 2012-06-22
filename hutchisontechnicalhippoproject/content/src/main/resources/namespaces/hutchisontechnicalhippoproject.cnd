@@ -15,3 +15,6 @@
 [hutchisontechnicalhippoproject:textdocument] > hutchisontechnicalhippoproject:basedocument, hippostd:relaxed
   orderable
 
+[hutchisontechnicalhippoproject:thing] > hutchisontechnicalhippoproject:basedocument, hippostd:relaxed
+  orderable
+

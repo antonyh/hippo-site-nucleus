@@ -491,6 +491,17 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>54cf3589-207c-422c-a201-a8ccbef35a9c</sv:value>
       </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Hippo CMS implementation</sv:value>
+        </sv:property>
+      </sv:node>
       <sv:node sv:name="hippo-cms-implementation">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hutchisontechnicalhippoproject:newsdocument</sv:value>
@@ -500,7 +511,7 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>6dc61863-d802-444e-a896-6fcdb9f4cb69</sv:value>
+          <sv:value>e26c8b22-1f83-4e5c-9143-44ba87fbe279</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -525,13 +536,13 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>2012-06-20T00:08:23.644+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2012-06-20T00:09:42.560+01:00</sv:value>
+          <sv:value>2012-06-22T21:24:02.476+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2012-06-20T01:35:57.104+01:00</sv:value>
+          <sv:value>2012-06-22T21:24:04.634+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>cea9ec45-6218-4a76-838b-a175e3e69d34</sv:value>
@@ -572,23 +583,12 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
             <sv:value>hippogallerypicker:imagelink</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+            <sv:value>13a1ffe3-fd1d-4356-aff9-05b295ba14c1</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
-      </sv:node>
-      <sv:node sv:name="hippo:translation">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:translation</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:language" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>Hippo CMS implementation</sv:value>
-        </sv:property>
       </sv:node>
     </sv:node>
   </sv:node>
