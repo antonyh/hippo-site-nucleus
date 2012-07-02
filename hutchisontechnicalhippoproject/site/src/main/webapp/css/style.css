@@ -300,7 +300,7 @@ a {
 }
 
 div.homebody {
-	margin-bottom: 1.5em;
+	margin-bottom: 10px;
 }
 
 @media print { /* print specific styling here*/

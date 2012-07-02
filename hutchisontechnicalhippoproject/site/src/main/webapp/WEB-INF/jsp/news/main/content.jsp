@@ -20,7 +20,6 @@
       <p><fmt:formatDate value="${document.date.time}" type="Date"/></p>
     </c:if>
     <p>${document.summary}</p>
-    <hst:html hippohtml="${document.html}"/>
     <c:if test="${hst:isReadable(document, 'image.original')}">
       <hst:link var="img" hippobean="${document.image.original}"/>
       <p>
@@ -31,7 +30,9 @@
         ${document.image.description}
       </p>
     </c:if>
+
+    <hst:html hippohtml="${document.html}"/>
+
     </div>
   </c:otherwise>
 </c:choose>
-hey

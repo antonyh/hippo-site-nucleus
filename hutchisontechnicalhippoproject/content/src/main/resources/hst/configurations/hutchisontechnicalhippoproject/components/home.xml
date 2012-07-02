@@ -6,6 +6,12 @@
   <sv:property sv:name="hst:componentclassname" sv:type="String">
     <sv:value>com.antonyh.hutchisontechnical.hippo.components.Home</sv:value>
   </sv:property>
+  <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+    <sv:value>pageSize</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+    <sv:value>24</sv:value>
+  </sv:property>
   <sv:property sv:name="hst:template" sv:type="String">
     <sv:value>home.main.content</sv:value>
   </sv:property>
