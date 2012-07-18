@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-release</artifactId>
-    <version>7.7.2</version>
+    <version>7.7.4</version>
   </parent>
 
   <name>Hutchison Technical Hippo Project</name>
