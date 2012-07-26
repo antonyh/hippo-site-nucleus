@@ -10,7 +10,7 @@
 
 <c:choose>
 	<c:when test="${empty document}">
-		empty document <tag:pagenotfound />
+		<tag:pagenotfound />
 	</c:when>
 	<c:otherwise>
 		<c:if test="${not empty document.title}">
@@ -21,12 +21,6 @@
 		</c:if>
 
 		<hst:cmseditlink hippobean="${document}" />
-
-		<!-- <div class="grid_12 homepage_section" style="background:url('/site/images/test/turtle.jpg')"><div>homepage 940x220</div></div> -->
-		<!-- <div class="grid_12"> -->
-		<!-- <div class="grid_6 alpha homepage_section" style="background:url('/site/images/test/gl11.jpg')"><div>homepage 460x220</div></div> -->
-		<!-- <div class="grid_6 omega homepage_section" style="background:url('/site/images/test/test.jpg')"><div>homepage 460x220</div></div> -->
-		<!-- </div> -->
 
 		<div class="grid_8 alpha omega homebody">
 			<hst:html hippohtml="${document.html}" />
@@ -57,15 +51,6 @@
         <hst:link var="link" hippobean="${item}"/>
           <hst:cmseditlink hippobean="${item}"/>
 
-<!--           <div> -->
-<%-- 	        <p><a href="${link}">${item.title}</a></p> --%>
-<%--             <c:if test="${hst:isReadable(item, 'date.time')}"> --%>
-<%--               <p><fmt:formatDate value="${item.date.time}" type="Date" pattern="MMMM d, yyyy h:mm a"/></p> --%>
-<%--             </c:if> --%>
-
-<%--             <p>${item.summary}</p> --%>
-<!--           </div> -->
-
           	<c:catch var="exception">
 				<c:if test="${not empty item.image}">
 					<hst:link var="img" hippobean="${item.image.original}"/>
@@ -80,6 +65,7 @@
       </c:forEach>
 
  	</div>
+ 	
     <!--if there are pages on the request, they will be printed by the tag:pages -->
     <tag:pages pages="${pages}" page="${page}"/>
 

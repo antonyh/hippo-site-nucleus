@@ -1,6 +1,6 @@
 <%@ include file="/WEB-INF/jspf/htmlTags.jspf" %>
 <%--@elvariable id="document" type="org.example.beans.TextDocument"--%>
-STD CONTENT BADGER
+
 <c:choose>
   <c:when test="${empty document}">
     <tag:pagenotfound/>

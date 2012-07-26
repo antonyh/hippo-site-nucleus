@@ -130,7 +130,7 @@ hr {
 	clear: both;
 }
 
-nav a,nav b {
+nav a,nav b, nav a:visited{
 	background-color: white;
 	color: #888888;
 	font-weight: bold;
@@ -301,6 +301,12 @@ a {
 
 div.homebody {
 	margin-bottom: 10px;
+}
+
+div.date{
+	padding-bottom:1em;
+	font-size:80%;
+	color:#999999;
 }
 
 @media print { /* print specific styling here*/

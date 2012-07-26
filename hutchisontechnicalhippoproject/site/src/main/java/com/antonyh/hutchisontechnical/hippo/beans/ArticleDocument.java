@@ -25,7 +25,6 @@ public class ArticleDocument extends BaseDocument {
 	 * @return the imageset of the articlepage
 	 */
 	public HippoGalleryImageSetBean getImage() {
-		System.out.println("x");
 		return getLinkedBean("hutchisontechnicalhippoproject:image",
 				HippoGalleryImageSetBean.class);
 	}
