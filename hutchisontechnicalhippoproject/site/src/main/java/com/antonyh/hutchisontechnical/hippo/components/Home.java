@@ -21,6 +21,7 @@ public class Home extends BaseComponent {
 
         HippoBean doc = getContentBean(request);
 
+    	//System.out.println("x");
         if (doc == null) {
             log.warn("Did not find a content bean for relative content path '{}' for pathInfo '{}'",
                          request.getRequestContext().getResolvedSiteMapItem().getRelativeContentPath(),
@@ -29,10 +30,6 @@ public class Home extends BaseComponent {
             return;
         }
         request.setAttribute("document",doc);
-
-
-
-
 
         ListViewInfo info = getParametersInfo(request);
         HippoBean scopeBean = null;
