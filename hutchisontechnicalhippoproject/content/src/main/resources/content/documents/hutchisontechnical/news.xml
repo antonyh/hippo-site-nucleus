@@ -22,23 +22,7 @@
   <sv:property sv:name="hippotranslation:locale" sv:type="String">
     <sv:value>en</sv:value>
   </sv:property>
-  <sv:node sv:name="hippotranslation:translations">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippotranslation:translations</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="hippo:translation">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:translation</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:language" sv:type="String">
-      <sv:value/>
-    </sv:property>
-    <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>News</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="2011">
+  <sv:node sv:name="2009">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
@@ -65,6 +49,62 @@
         <sv:value>hippotranslation:translations</sv:value>
       </sv:property>
     </sv:node>
+  </sv:node>
+  <sv:node sv:name="2010">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>1ec4e07d-9e8d-4a86-8a8d-b9605e61449b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>faf18763-60b0-4191-be45-763178dc49dd</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="2011">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>be506575-dbe5-49b9-b31c-f087870ff863</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>9485cb0d-cbd4-4ea9-98b8-e550e2ba60a7</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
     <sv:node sv:name="toyota-suggests-putting-a-glass-of-water-on-your-dash">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
@@ -74,7 +114,7 @@
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>34fce626-c94c-44d7-9b94-6fd1498dda38</sv:value>
+        <sv:value>7ecb2884-4550-486e-9c11-25cef1e4083d</sv:value>
       </sv:property>
       <sv:node sv:name="hippo:translation">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -96,9 +136,10 @@
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>4955b415-3c02-4282-ab32-702a8bfa97bd</sv:value>
+          <sv:value>efeb50ad-c5ac-4299-a84e-333a4ded3e85</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -108,10 +149,10 @@
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>unpublished</sv:value>
+          <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>new</sv:value>
+          <sv:value>live</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -195,7 +236,7 @@ smooth operator.&lt;/p&gt;
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>081284cd-4215-410c-8a49-1eb09b631183</sv:value>
+        <sv:value>fc679cf7-69ab-4450-afbb-12a0e3a4a010</sv:value>
       </sv:property>
       <sv:node sv:name="solar-power-the-sky-is-the-limit">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -206,9 +247,10 @@ smooth operator.&lt;/p&gt;
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>1a5aba6b-0191-43d0-bc86-749243c3e7ef</sv:value>
+          <sv:value>a0c1415c-84f1-45b6-a94e-a58a0ad8094e</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -218,10 +260,10 @@ smooth operator.&lt;/p&gt;
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>unpublished</sv:value>
+          <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>new</sv:value>
+          <sv:value>live</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -334,7 +376,7 @@ long ago, Feldzer explained; having a person on board “changes everything”.&
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>1ad9e652-7b39-45a2-88d5-38a8ca23b2cd</sv:value>
+        <sv:value>3d766bf0-46fc-44c4-97b4-16aabb0dcd9d</sv:value>
       </sv:property>
       <sv:node sv:name="pbs-show-asserts-greenhouse-gases-atmospheric-pollutants-dimming-future">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -345,9 +387,10 @@ long ago, Feldzer explained; having a person on board “changes everything”.&
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>2acbdf38-2369-40cb-b4e8-ea557e92ef41</sv:value>
+          <sv:value>5515eb26-68f6-4d98-bc26-a617382c9234</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -357,10 +400,10 @@ long ago, Feldzer explained; having a person on board “changes everything”.&
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>unpublished</sv:value>
+          <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>new</sv:value>
+          <sv:value>live</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -459,7 +502,7 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
       <sv:value>hippotranslation:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>1ec4e07d-9e8d-4a86-8a8d-b9605e61449b</sv:value>
+      <sv:value>48df0e90-e370-451d-b068-729a8df0be63</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
     <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
@@ -472,11 +515,6 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>en</sv:value>
     </sv:property>
-    <sv:node sv:name="hippotranslation:translations">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippotranslation:translations</sv:value>
-      </sv:property>
-    </sv:node>
     <sv:node sv:name="hippo-cms-implementation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
@@ -486,7 +524,7 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>54cf3589-207c-422c-a201-a8ccbef35a9c</sv:value>
+        <sv:value>e4ea1c14-1be6-42db-aa53-e02559d8250a</sv:value>
       </sv:property>
       <sv:node sv:name="hippo:translation">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -508,7 +546,7 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>4f6593b8-cbfb-488e-aaf0-338c1a462760</sv:value>
+          <sv:value>999d4f71-dc58-4604-baa2-060fbe8a801d</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -533,13 +571,13 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>2012-06-20T00:08:23.644+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2012-07-18T23:07:40.652+01:00</sv:value>
+          <sv:value>2012-06-23T20:25:52.939+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2012-07-18T23:07:46.740+01:00</sv:value>
+          <sv:value>2012-06-23T20:25:55.720+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>cea9ec45-6218-4a76-838b-a175e3e69d34</sv:value>
@@ -548,7 +586,7 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>en</sv:value>
         </sv:property>
         <sv:property sv:name="hutchisontechnicalhippoproject:date" sv:type="Date">
-          <sv:value>2012-07-20T00:00:00.000+01:00</sv:value>
+          <sv:value>2012-06-20T00:00:19.062+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hutchisontechnicalhippoproject:summary" sv:type="String">
           <sv:value>I built a custom CMS site using the Hippo CMS7 platform. You're looking at it right now.</sv:value>
@@ -588,5 +626,37 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
         </sv:node>
       </sv:node>
     </sv:node>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>News</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>News</sv:value>
+    </sv:property>
   </sv:node>
 </sv:node>

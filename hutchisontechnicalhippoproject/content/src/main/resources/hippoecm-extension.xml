@@ -994,21 +994,35 @@
       <sv:value>/content/gallery/hutchisontechnicalhippoproject</sv:value> 
     </sv:property> 
   </sv:node>  
-  <sv:node sv:name="hutchisontechnicalhippoproject-hippo-namespaces-hutchisontechnicalhippoproject-valueproposition">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>10052.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>namespaces/hutchisontechnicalhippoproject/valueproposition.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/hutchisontechnicalhippoproject</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="hutchisontechnicalhippoproject-content-documents-hutchisontechnical-value-propositions">
+  <sv:node sv:name="hutchisontechnicalhippoproject-hippo-namespaces-hutchisontechnicalhippoproject-valueproposition"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>10052.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>namespaces/hutchisontechnicalhippoproject/valueproposition.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hippo:namespaces/hutchisontechnicalhippoproject</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hutchisontechnicalhippoproject-content-documents-hutchisontechnical-value-propositions"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>10055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/hutchisontechnical/value-propositions.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/hutchisontechnical</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hutchisontechnicalhippoproject-content-documents-hutchisontechnical-topics">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -1016,10 +1030,24 @@
       <sv:value>10055.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/hutchisontechnical/value-propositions.xml</sv:value>
+      <sv:value>content/documents/hutchisontechnical/topics.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/content/documents/hutchisontechnical</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hutchisontechnicalhippoproject-hippo-namespaces-hutchisontechnicalhippoproject-topicdefinition">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>10052.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>namespaces/hutchisontechnicalhippoproject/topicdefinition.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:namespaces/hutchisontechnicalhippoproject</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

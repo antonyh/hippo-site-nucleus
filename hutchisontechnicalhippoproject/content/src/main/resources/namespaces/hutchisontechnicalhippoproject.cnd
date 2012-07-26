@@ -18,6 +18,9 @@
 [hutchisontechnicalhippoproject:thing] > hutchisontechnicalhippoproject:basedocument, hippostd:relaxed
   orderable
 
+[hutchisontechnicalhippoproject:topicdefinition] > hutchisontechnicalhippoproject:basedocument, hippostd:relaxed
+  orderable
+
 [hutchisontechnicalhippoproject:valueproposition] > hutchisontechnicalhippoproject:basedocument, hippostd:relaxed
   orderable
 
