@@ -39,6 +39,7 @@ int autoRedirectSeconds = 2;
                     <fmt:message key="message.authen.required">
                       <fmt:param value="<%=destination%>" />
                     </fmt:message>
+                    </p>
                 </td>
               </tr>
               <tr>
