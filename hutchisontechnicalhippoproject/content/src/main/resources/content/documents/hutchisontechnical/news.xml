@@ -99,7 +99,6 @@
           <sv:value>4955b415-3c02-4282-ab32-702a8bfa97bd</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -109,10 +108,10 @@
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>published</sv:value>
+          <sv:value>unpublished</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -210,7 +209,6 @@ smooth operator.&lt;/p&gt;
           <sv:value>1a5aba6b-0191-43d0-bc86-749243c3e7ef</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -220,10 +218,10 @@ smooth operator.&lt;/p&gt;
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>published</sv:value>
+          <sv:value>unpublished</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -350,7 +348,6 @@ long ago, Feldzer explained; having a person on board “changes everything”.&
           <sv:value>2acbdf38-2369-40cb-b4e8-ea557e92ef41</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -360,10 +357,10 @@ long ago, Feldzer explained; having a person on board “changes everything”.&
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>published</sv:value>
+          <sv:value>unpublished</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -511,7 +508,7 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>999d4f71-dc58-4604-baa2-060fbe8a801d</sv:value>
+          <sv:value>4f6593b8-cbfb-488e-aaf0-338c1a462760</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -536,13 +533,13 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>2012-06-20T00:08:23.644+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2012-06-23T20:25:52.939+01:00</sv:value>
+          <sv:value>2012-07-18T23:07:40.652+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2012-06-23T20:25:55.720+01:00</sv:value>
+          <sv:value>2012-07-18T23:07:46.740+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>cea9ec45-6218-4a76-838b-a175e3e69d34</sv:value>
@@ -551,7 +548,7 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>en</sv:value>
         </sv:property>
         <sv:property sv:name="hutchisontechnicalhippoproject:date" sv:type="Date">
-          <sv:value>2012-06-20T00:00:19.062+01:00</sv:value>
+          <sv:value>2012-07-20T00:00:00.000+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hutchisontechnicalhippoproject:summary" sv:type="String">
           <sv:value>I built a custom CMS site using the Hippo CMS7 platform. You're looking at it right now.</sv:value>
