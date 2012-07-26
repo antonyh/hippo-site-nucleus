@@ -60,7 +60,7 @@ public class Detail extends BaseComponent {
 								+ request.getRequestContext()
 										.getResolvedMount().getMount()
 										.getContentPath()
-								+ "'. Cannot create a list");
+								+ "'. Cannot create a list ");
 			}
 		}
 
@@ -69,6 +69,7 @@ public class Detail extends BaseComponent {
 			throw new HstComponentException(
 					"For an Home component there must be a content bean available to search below. Cannot create an overview");
 		}
+
 		createAndExecuteSearch(this, request, info, scopeBean, null, "sidebar");
 	}
 

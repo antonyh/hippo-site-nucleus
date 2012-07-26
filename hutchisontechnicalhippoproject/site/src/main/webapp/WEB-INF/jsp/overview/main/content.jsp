@@ -20,7 +20,7 @@
 	<div class="grid_8 pagetitle">
     <h1>
       ${info.title}
-      <c:if test="${not empty result.totalSize}"> Total results ${result.totalSize}</c:if>
+<%--       <c:if test="${not empty result.totalSize}"> Total results ${result.totalSize}</c:if> --%>
     </h1>
     </div>
     <div class="grid_8">

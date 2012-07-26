@@ -64,7 +64,7 @@
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>243ffd6b-26fd-40c5-8cea-ce2cfd7bd15b</sv:value>
+        <sv:value>b2bcfa7a-8ea1-4bd1-8885-40c4163fde0a</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -89,13 +89,13 @@
         <sv:value>2010-01-21T10:34:11.055Z</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2012-06-20T13:58:48.084+01:00</sv:value>
+        <sv:value>2012-07-26T19:33:11.694+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2012-06-20T13:58:51.008+01:00</sv:value>
+        <sv:value>2012-07-26T19:33:13.755+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>hutchisontechnicalhippoproject-common-homepage-id</sv:value>
@@ -120,11 +120,7 @@
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
           <sv:value>&lt;html&gt;
-&lt;body&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;/body&gt;
+&lt;body/&gt;
 &lt;/html&gt;</sv:value>
         </sv:property>
       </sv:node>

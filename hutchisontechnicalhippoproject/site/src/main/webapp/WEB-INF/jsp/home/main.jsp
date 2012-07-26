@@ -1,5 +1,5 @@
 <%@ include file="/WEB-INF/jspf/htmlTags.jspf" %>
-
+ 
 <div id="main" class="container_12">
     <div id="content" class="grid_12 alpha omega ">
       <!-- the lists is a general 'slot' where items can be dropped in -->

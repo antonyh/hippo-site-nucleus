@@ -18,7 +18,7 @@
 	      			<div class="imageblock grid_4 alpha omega homebody" style="background-image:url('${img}');">
 						<div>${item.summary}</div>
 					</div>
-					</a>
+					</a> 
 				</c:if>
 
 			</c:catch>

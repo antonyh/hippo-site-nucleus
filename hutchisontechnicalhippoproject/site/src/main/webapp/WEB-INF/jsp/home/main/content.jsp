@@ -7,7 +7,7 @@
 <%--@elvariable id="pages" type="java.util.Collection<java.lang.Integer>"--%>
 <%--@elvariable id="query" type="java.lang.String"--%>
 <%--@elvariable id="result" type="org.hippoecm.hst.content.beans.query.HstQueryResult"--%>
-
+ 
 <c:choose>
 	<c:when test="${empty document}">
 		<tag:pagenotfound />
@@ -23,15 +23,12 @@
 		<hst:cmseditlink hippobean="${document}" />
 
 		<div class="grid_8 alpha omega homebody">
-			<hst:html hippohtml="${document.html}" />
+			 <hst:html hippohtml="${document.html}" />
 		</div>
 
 	</c:otherwise>
 </c:choose>
-
-
-
-
+ 
 <c:choose>
   <c:when test="${empty info}">
     <tag:pagenotfound/>
@@ -48,10 +45,11 @@
     <div class="grid_12 alpha omega">
 
       <c:forEach var="item" items="${result.hippoBeans}">
-        <hst:link var="link" hippobean="${item}"/>
+ 
           <hst:cmseditlink hippobean="${item}"/>
 
           	<c:catch var="exception">
+          	 
 				<c:if test="${not empty item.image}">
 					<hst:link var="img" hippobean="${item.image.original}"/>
 					<hst:link var="link" hippobean="${item}"/>
@@ -61,7 +59,9 @@
 					</div>
 					</a>
 				</c:if>
+ 
 			</c:catch>
+			
       </c:forEach>
 
  	</div>

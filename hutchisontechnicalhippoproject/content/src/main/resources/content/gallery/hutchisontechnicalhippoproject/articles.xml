@@ -28,6 +28,17 @@
       <sv:value>Articles</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Articles</sv:value>
+    </sv:property>
+  </sv:node>
   <sv:node sv:name="300x225">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippogallery:stdImageGallery</sv:value>
@@ -36,7 +47,7 @@
       <sv:value>hippo:harddocument</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>5c938cdf-16e1-4f28-b132-0a9a46bb37e7</sv:value>
+      <sv:value>14fb0c50-3160-404d-90d9-f48005b9f012</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
     <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">

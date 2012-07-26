@@ -89,6 +89,7 @@ public abstract class BaseComponent extends BaseHstComponent {
 					filterClass, true);
 			hstQuery.setLimit(pageSize);
 			hstQuery.setOffset(pageSize * (crPage - 1));
+
 			if (sortBy != null && !"".equals(sortBy)) {
 				if (sortOrder == null || "".equals(sortOrder)
 						|| "descending".equals(sortOrder)) {

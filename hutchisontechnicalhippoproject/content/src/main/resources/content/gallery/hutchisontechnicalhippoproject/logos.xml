@@ -5,7 +5,6 @@
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippo:harddocument</sv:value>
-    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>44574e4b-1c04-4828-b752-51bb2209a86e</sv:value>

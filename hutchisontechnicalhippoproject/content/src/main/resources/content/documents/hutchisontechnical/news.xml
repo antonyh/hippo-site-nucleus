@@ -136,7 +136,7 @@
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>efeb50ad-c5ac-4299-a84e-333a4ded3e85</sv:value>
+          <sv:value>07d2c429-74dc-4b1b-9566-ce10d987bf3b</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -161,13 +161,13 @@
           <sv:value>2011-02-15T14:55:29.386Z</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2011-02-15T14:58:37.307Z</sv:value>
+          <sv:value>2012-07-26T17:50:49.478+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2011-02-15T14:58:39.642Z</sv:value>
+          <sv:value>2012-07-26T17:50:53.093+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>c47a68d8-a5e9-4a22-b67b-80294f49ee9d</sv:value>
@@ -378,6 +378,17 @@ long ago, Feldzer explained; having a person on board “changes everything”.&
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>3d766bf0-46fc-44c4-97b4-16aabb0dcd9d</sv:value>
       </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>PBS show asserts greenhouse gases, atmospheric pollutants dimming future</sv:value>
+        </sv:property>
+      </sv:node>
       <sv:node sv:name="pbs-show-asserts-greenhouse-gases-atmospheric-pollutants-dimming-future">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hutchisontechnicalhippoproject:newsdocument</sv:value>
@@ -387,7 +398,7 @@ long ago, Feldzer explained; having a person on board “changes everything”.&
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>5515eb26-68f6-4d98-bc26-a617382c9234</sv:value>
+          <sv:value>b64873fc-ea7b-40c0-9526-61c896557ef1</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -412,13 +423,13 @@ long ago, Feldzer explained; having a person on board “changes everything”.&
           <sv:value>2011-02-15T15:02:17.866Z</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2011-02-15T15:04:00.010Z</sv:value>
+          <sv:value>2012-07-26T17:51:05.298+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2011-02-15T15:04:13.472Z</sv:value>
+          <sv:value>2012-07-26T17:51:17.094+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>bb99b711-473b-4ac4-8ba0-50208ea6b1b7</sv:value>
@@ -479,17 +490,6 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
-      </sv:node>
-      <sv:node sv:name="hippo:translation">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:translation</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:language" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>PBS show asserts greenhouse gases, atmospheric pollutants dimming future</sv:value>
-        </sv:property>
       </sv:node>
     </sv:node>
   </sv:node>

@@ -111,9 +111,17 @@ div.pagetitle h1 {
 	letter-spacing: -0.03em;
 }
 
-p {
-	letter-spacing: -0.010em;
+ 
+article p{
+	line-height:1.2em;
+	padding-bottom:0.75em;
 	color: #444444;
+}
+
+article h3{
+	padding-top:0;
+	line-height:1.1em;
+	padding-bottom:0.65em;
 }
 
 div#nav {
