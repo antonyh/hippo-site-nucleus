@@ -29,7 +29,7 @@
         <sv:value>hippo:harddocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>41933da8-1aec-4f8e-a751-058a7fb4988b</sv:value>
+        <sv:value>738f57f0-29c7-4d33-9cc0-bc4d5fd1fc7e</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
       <sv:property sv:name="hipposysedit:node" sv:type="Boolean">
@@ -206,7 +206,7 @@
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>1377b1c7-e7c3-422d-b112-50e7dccc1aed</sv:value>
+        <sv:value>d332e499-6c65-46c5-bdc6-0d20c0ca2ce9</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
       <sv:property sv:name="hippostd:state" sv:type="String">
@@ -360,6 +360,9 @@
         <sv:property sv:name="validator.id" sv:type="String">
           <sv:value>${validator.id}</sv:value>
         </sv:property>
+        <sv:property sv:name="wicket.css" sv:type="String" sv:multiple="true">
+          <sv:value>tall</sv:value>
+        </sv:property>
         <sv:property sv:name="wicket.id" sv:type="String">
           <sv:value>${cluster.id}.field</sv:value>
         </sv:property>
@@ -369,6 +372,9 @@
         <sv:node sv:name="cluster.options">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>frontend:pluginconfig</sv:value>
+          </sv:property>
+          <sv:property sv:name="size" sv:type="String">
+            <sv:value/>
           </sv:property>
         </sv:node>
       </sv:node>

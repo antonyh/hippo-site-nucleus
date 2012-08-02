@@ -546,7 +546,7 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>999d4f71-dc58-4604-baa2-060fbe8a801d</sv:value>
+          <sv:value>80d7a953-db9f-4d67-badf-4ad41a9fdd6c</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -571,13 +571,13 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>2012-06-20T00:08:23.644+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2012-06-23T20:25:52.939+01:00</sv:value>
+          <sv:value>2012-07-27T19:33:53.156+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2012-06-23T20:25:55.720+01:00</sv:value>
+          <sv:value>2012-07-27T19:33:56.408+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>cea9ec45-6218-4a76-838b-a175e3e69d34</sv:value>
@@ -589,7 +589,7 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>2012-06-20T00:00:19.062+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hutchisontechnicalhippoproject:summary" sv:type="String">
-          <sv:value>I built a custom CMS site using the Hippo CMS7 platform. You're looking at it right now.</sv:value>
+          <sv:value>I built a custom CMS site using Hippo. You're looking at it right now.</sv:value>
         </sv:property>
         <sv:property sv:name="hutchisontechnicalhippoproject:title" sv:type="String">
           <sv:value>Hippo CMS7 Implementation</sv:value>
@@ -607,7 +607,64 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
             <sv:value>&lt;html&gt;
 &lt;body&gt;
 
-&lt;p&gt;I will write something here.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla est
+quis dolor bibendum elementum. Aliquam a sem sit amet lacus bibendum suscipit id
+sed justo. Vestibulum cursus dapibus feugiat. Vivamus suscipit, magna ac rutrum
+commodo, felis arcu molestie augue, et consectetur libero nisi id quam. Etiam
+quis dolor purus. In rhoncus tincidunt facilisis. Maecenas tristique semper sem,
+at tincidunt elit sagittis eu. Duis sit amet tortor ut magna ornare euismod nec
+eu ipsum. Quisque vestibulum feugiat tortor, blandit pellentesque tortor
+suscipit eleifend. Aenean rhoncus, metus quis congue molestie, leo neque
+vehicula urna, at accumsan nunc nisi non mauris. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Praesent imperdiet enim
+sed risus ornare ac facilisis tortor mattis.&lt;/p&gt;
+
+&lt;p&gt;Sed bibendum aliquet tellus, non commodo nibh elementum a. Phasellus sed erat
+sed risus dignissim vestibulum. Proin sem enim, ultrices non consequat a,
+tincidunt a sem. Pellentesque eget ante ut orci rutrum consequat. Duis tellus
+augue, venenatis id scelerisque vitae, fermentum ut lorem. Donec ut urna id
+velit tincidunt eleifend ut a nulla. Class aptent taciti sociosqu ad litora
+torquent per conubia nostra, per inceptos himenaeos. Praesent euismod, nulla non
+malesuada ultrices, elit nunc accumsan arcu, nec euismod libero mauris quis
+felis. Curabitur laoreet sem nec leo elementum consectetur fringilla nibh
+imperdiet. Pellentesque feugiat pulvinar scelerisque. Aliquam eu varius ligula.
+Nam rutrum blandit magna nec condimentum. Nam sapien felis, semper id faucibus
+sed, hendrerit non lorem. Donec aliquam posuere odio, in cursus orci euismod
+quis. Curabitur justo mi, imperdiet id consequat eget, aliquam vel purus. Donec
+luctus, quam sed consectetur ultrices, erat elit consectetur lorem, nec pulvinar
+leo mi in sapien.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse congue, lectus ac volutpat lacinia, nunc mi pulvinar leo, a
+convallis turpis tortor at leo. Sed ac iaculis quam. Cras pulvinar congue velit,
+id tristique sapien facilisis pulvinar. Cras pellentesque orci quis mauris
+ultricies accumsan vitae vel urna. Fusce feugiat leo non velit rhoncus laoreet.
+Morbi commodo vehicula imperdiet. Nullam laoreet feugiat odio, at sollicitudin
+nisi lacinia ac. Proin pharetra ornare augue, vel euismod libero elementum eget.
+Aenean ornare purus quis arcu sagittis id semper est auctor. Vestibulum
+convallis molestie mauris pellentesque porta. Aliquam ut lacus at leo feugiat
+cursus volutpat sit amet enim.&lt;/p&gt;
+
+&lt;p&gt;Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus et
+ultrices posuere cubilia Curae; Mauris vitae tellus quis lorem varius faucibus
+nec a tellus. Nunc lobortis convallis ornare. Nam ante neque, mattis eu
+tincidunt a, consequat eget nulla. Suspendisse mattis metus vel massa fermentum
+in rhoncus urna vestibulum. Praesent hendrerit, nisl eget pharetra pharetra,
+erat magna aliquam arcu, non adipiscing purus orci eu ligula. Aliquam interdum
+risus id nulla porta tristique. Praesent bibendum justo sit amet justo molestie
+luctus. Pellentesque viverra faucibus consectetur. Phasellus quis tortor nec
+eros fringilla dignissim.&lt;/p&gt;
+
+&lt;p&gt;Proin ac diam quis sem pretium lacinia non id nisl. Sed pharetra eleifend
+nulla, et rutrum orci tempus at. Cras vel dolor in leo feugiat adipiscing.
+Phasellus eget quam ut sapien venenatis semper. In hac habitasse platea
+dictumst. Praesent porta, sapien non dictum imperdiet, elit urna volutpat enim,
+nec tempor neque risus vitae odio. Duis pellentesque, dui at laoreet venenatis,
+risus nibh sodales felis, vel ultricies erat ligula eu sem. Aliquam erat
+volutpat. Vivamus nec mauris sapien, a convallis enim. Aenean ornare nulla sed
+augue pellentesque quis posuere sem sollicitudin. Ut accumsan iaculis risus eget
+imperdiet. Aliquam erat volutpat. Pellentesque at turpis at leo semper tempor
+sed in nisl. Etiam laoreet leo at nulla mattis dapibus.&lt;/p&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;</sv:value>

@@ -2,18 +2,18 @@ package com.antonyh.hutchisontechnical.hippo.componentsinfo;
 
 import org.hippoecm.hst.core.parameters.Parameter;
 
-public interface GeneralListInfo {
+public interface TopicListInfo extends ListViewInfo {
 
-	@Parameter(name = "title", displayName = "The title of the page", defaultValue = "Overview")
+	@Parameter(name = "title", displayName = "The title of the page", defaultValue = "Topics")
 	String getTitle();
 
-	@Parameter(name = "pageSize", displayName = "Page Size", defaultValue = "10")
+	@Parameter(name = "pageSize", displayName = "Page Size", defaultValue = "250")
 	int getPageSize();
 
-	@Parameter(name = "docType", displayName = "Document Type", defaultValue = "hutchisontechnicalhippoproject:basedocument")
+	@Parameter(name = "docType", displayName = "Document Type", defaultValue = "hutchisontechnicalhippoproject:topicdefinition")
 	String getDocType();
 
-	@Parameter(name = "sortBy", displayName = "Sort By Property", defaultValue = "date")
+	@Parameter(name = "sortBy", displayName = "Sort By Property", defaultValue = "title")
 	String getSortBy();
 
 	@Parameter(name = "sortOrder", displayName = "Sort Order", defaultValue = "ascending")

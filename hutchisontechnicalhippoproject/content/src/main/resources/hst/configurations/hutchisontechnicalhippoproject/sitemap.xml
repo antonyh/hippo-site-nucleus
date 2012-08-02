@@ -87,7 +87,7 @@
       <sv:value>hst:sitemapitem</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-      <sv:value>hst:pages/textpage</sv:value>
+      <sv:value>hst:pages/articleoverview</sv:value>
     </sv:property>
     <sv:property sv:name="hst:relativecontentpath" sv:type="String">
       <sv:value>articles</sv:value>
@@ -119,6 +119,9 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:sitemapitem</sv:value>
     </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/topics</sv:value>
+    </sv:property>
     <sv:property sv:name="hst:relativecontentpath" sv:type="String">
       <sv:value>topics</sv:value>
     </sv:property>
@@ -127,7 +130,7 @@
         <sv:value>hst:sitemapitem</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-        <sv:value>hst:pages/standard</sv:value>
+        <sv:value>hst:pages/topicpage</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
         <sv:value>${parent}/${1}</sv:value>
@@ -138,7 +141,7 @@
         <sv:value>hst:sitemapitem</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-        <sv:value>hst:pages/standard</sv:value>
+        <sv:value>hst:pages/topicpage</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
         <sv:value>${parent}/${1}</sv:value>

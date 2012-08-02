@@ -157,7 +157,7 @@
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>6afe1c28-e828-4eb6-8ede-4b90519de30d</sv:value>
+        <sv:value>bf1fd39e-3b38-47a3-949a-f1c91883045d</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -182,13 +182,13 @@
         <sv:value>2010-01-21T10:34:11.055Z</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2012-06-20T01:37:25.832+01:00</sv:value>
+        <sv:value>2012-08-01T22:10:06.837+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2012-06-20T01:37:28.377+01:00</sv:value>
+        <sv:value>2012-08-01T22:13:55.145+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>hutchisontechnicalhippoproject-common-about-us-id</sv:value>
@@ -230,6 +230,17 @@ general web development please get in touch. &lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;</sv:value>
         </sv:property>
+      </sv:node>
+      <sv:node sv:name="hutchisontechnicalhippoproject:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>042c4b4b-f225-49f9-83dc-82c851d140b3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
       </sv:node>
     </sv:node>
   </sv:node>

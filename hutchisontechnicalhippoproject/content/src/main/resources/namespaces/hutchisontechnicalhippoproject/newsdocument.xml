@@ -29,7 +29,7 @@
         <sv:value>hippo:harddocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>acfe2c56-e66d-4336-a1d4-4cf4b64add0e</sv:value>
+        <sv:value>de6d0a90-0ef8-46b4-918f-71290f7c8baa</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
       <sv:property sv:name="hipposysedit:node" sv:type="Boolean">
@@ -172,7 +172,7 @@
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>4a3e195f-5575-4b89-a50d-fcffd904599e</sv:value>
+        <sv:value>793c83f1-70e7-41e5-9aca-5770f53afb7a</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
       <sv:property sv:name="hippostd:state" sv:type="String">
@@ -217,17 +217,6 @@
         <sv:property sv:name="hippostd:content" sv:type="String">
           <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
         </sv:property>
-      </sv:node>
-      <sv:node sv:name="hutchisontechnicalhippoproject:image">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippogallerypicker:imagelink</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
       </sv:node>
     </sv:node>
   </sv:node>

@@ -5,7 +5,6 @@
 <%--@elvariable id="query" type="java.lang.String"--%>
 <%--@elvariable id="result" type="org.hippoecm.hst.content.beans.query.HstQueryResult"--%>
 
-
 <c:choose>
   <c:when test="${empty info}">
     <tag:pagenotfound/>
@@ -29,14 +28,8 @@
         <hst:link var="link" hippobean="${item}"/>
         <li class="overview-item">
           <hst:cmseditlink hippobean="${item}"/>
-
           <div>
 	        <p><a href="${link}">${item.title}</a></p>
-            <c:if test="${hst:isReadable(item, 'date.time')}">
-              <p><fmt:formatDate value="${item.date.time}" type="Date" pattern="dd MMMM yyyy"/></p>
-            </c:if>
-
-            <p>${item.summary}</p>
           </div>
         </li>
       </c:forEach>

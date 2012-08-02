@@ -10,8 +10,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.antonyh.hutchisontechnical.hippo.componentsinfo.ListViewInfo;
+import com.antonyh.hutchisontechnical.hippo.componentsinfo.SidebarListViewInfo;
 
-@ParametersInfo(type = ListViewInfo.class)
+@ParametersInfo(type = SidebarListViewInfo.class)
 public class Detail extends BaseComponent {
 
 	public static final Logger log = LoggerFactory.getLogger(Detail.class);

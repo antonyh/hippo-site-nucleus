@@ -29,7 +29,7 @@
         <sv:value>hippo:harddocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>fbc5500a-69b3-4a4a-8d07-e2b5fbbecbc1</sv:value>
+        <sv:value>57d9dd87-51e4-4363-b5f2-300f143281be</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
       <sv:property sv:name="hipposysedit:node" sv:type="Boolean">
@@ -56,7 +56,7 @@
           <sv:value>false</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:path" sv:type="String">
-          <sv:value>hutchisontechnicalhippoproject:topic</sv:value>
+          <sv:value>hutchisontechnicalhippoproject:title</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:primary" sv:type="Boolean">
           <sv:value>false</sv:value>
@@ -84,7 +84,7 @@
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>456bd02c-acc8-4e5a-b1b3-d13ddc448087</sv:value>
+        <sv:value>476cdb82-d394-4b82-9ef1-0ef1c72ebcdb</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
       <sv:property sv:name="hippostd:holder" sv:type="String">
@@ -114,7 +114,7 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:name="hutchisontechnicalhippoproject:topic" sv:type="String">
+      <sv:property sv:name="hutchisontechnicalhippoproject:title" sv:type="String">
         <sv:value/>
       </sv:property>
       <sv:node sv:name="hippotranslation:translations">
@@ -197,7 +197,7 @@
           <sv:value>${cluster.id}.right</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="topic">
+      <sv:node sv:name="title">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:plugin</sv:value>
         </sv:property>

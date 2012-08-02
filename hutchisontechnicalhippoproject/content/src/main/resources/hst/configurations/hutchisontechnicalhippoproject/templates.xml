@@ -124,4 +124,22 @@
       <sv:value>jsp/contact/main/content.jsp</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="topics.main.content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/topics/main/content.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="topicpage.main.content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/topicpage/main/content.jsp</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

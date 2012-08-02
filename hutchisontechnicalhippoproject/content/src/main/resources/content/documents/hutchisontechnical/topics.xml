@@ -49,6 +49,17 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>da6453d4-7531-4f94-a63f-2783de1563cf</sv:value>
     </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>CMS</sv:value>
+      </sv:property>
+    </sv:node>
     <sv:node sv:name="cms">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hutchisontechnicalhippoproject:topicdefinition</sv:value>
@@ -58,7 +69,7 @@
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>9597eb7e-422d-4479-9ff0-c108b47688ce</sv:value>
+        <sv:value>3961d40a-0499-418e-b9ca-1887dbeb9ee5</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -83,19 +94,22 @@
         <sv:value>2012-07-26T11:49:22.268+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2012-07-26T11:49:33.912+01:00</sv:value>
+        <sv:value>2012-08-01T23:05:39.676+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2012-07-26T12:16:55.244+01:00</sv:value>
+        <sv:value>2012-08-01T23:05:41.536+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>82d7898f-3ffb-4759-b0ad-513b32b6a81b</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="hutchisontechnicalhippoproject:title" sv:type="String">
+        <sv:value>Content Management Systems</sv:value>
       </sv:property>
       <sv:property sv:name="hutchisontechnicalhippoproject:topic" sv:type="String">
         <sv:value>Content Management Systems</sv:value>
@@ -105,17 +119,6 @@
           <sv:value>hippotranslation:translations</sv:value>
         </sv:property>
       </sv:node>
-    </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>CMS</sv:value>
-      </sv:property>
     </sv:node>
   </sv:node>
 </sv:node>

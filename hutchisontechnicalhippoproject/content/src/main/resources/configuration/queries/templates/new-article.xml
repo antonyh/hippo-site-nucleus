@@ -45,7 +45,7 @@
       <sv:value>en</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>new article</sv:value>
+      <sv:value>new document</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="hippo:translation">
@@ -59,7 +59,7 @@
       <sv:value>nl</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>nieuw article</sv:value>
+      <sv:value>nieuw document</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="hippo:translation">
@@ -73,7 +73,7 @@
       <sv:value>fr</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>nouveau article</sv:value>
+      <sv:value>nouveau document</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="hippo:translation">
@@ -87,7 +87,7 @@
       <sv:value>it</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>nouvo article</sv:value>
+      <sv:value>nouvo documento</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="hippo:translation">
@@ -101,7 +101,7 @@
       <sv:value>de</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>Neues article</sv:value>
+      <sv:value>Neues Dokument</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

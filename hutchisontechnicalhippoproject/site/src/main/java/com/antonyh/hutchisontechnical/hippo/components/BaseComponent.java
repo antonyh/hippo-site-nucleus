@@ -99,6 +99,10 @@ public abstract class BaseComponent extends BaseHstComponent {
 				}
 			}
 
+			Filter filter = hstQuery.createFilter();
+			hstQuery.setFilter(filter);
+			// filter.addNotNull("hutchisontechnicalhippoproject:image/hippo:translation/hippo:message");
+
 			String parsedQuery = SearchInputParsingUtils.parse(query, false);
 			if (parsedQuery != null && !parsedQuery.equals(query)) {
 				log.debug(
@@ -110,6 +114,8 @@ public abstract class BaseComponent extends BaseHstComponent {
 				f.addContains(".", parsedQuery);
 				hstQuery.setFilter(f);
 			}
+
+			log.error("query is {}", hstQuery.getQueryAsString(true));
 
 			HstQueryResult result = hstQuery.execute();
 
