@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="news">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>fa92232e-9b03-4001-9cb9-03406ae84b3b</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>b1698ac1-72d6-4223-86a9-da7965d1566f</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>News</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="2011">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8d93e132-3b81-4cb1-aa32-f969a6c98e6a</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>9485cb0d-cbd4-4ea9-98b8-e550e2ba60a7</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="toyota-suggests-putting-a-glass-of-water-on-your-dash">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>34fce626-c94c-44d7-9b94-6fd1498dda38</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Toyota suggests putting a glass of water on your dash</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="toyota-suggests-putting-a-glass-of-water-on-your-dash">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>ht:newsdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4955b415-3c02-4282-ab32-702a8bfa97bd</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>news/2011/toyota-suggests-putting-a-glass-of-water-on-your-dash</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-02-15T14:55:29.386Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-02-15T14:58:37.307Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2011-02-15T14:58:39.642Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>c47a68d8-a5e9-4a22-b67b-80294f49ee9d</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:date" sv:type="Date">
+          <sv:value>2011-02-15T00:00:00.000+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:summary" sv:type="String">
+          <sv:value>For a 10% fuel consumption reduction...</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:title" sv:type="String">
+          <sv:value>Toyota suggests putting a glass of water on your dash (well, not really)</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;No, Toyota isn't trying to con you into buying a "water powered car". They
+are simply trying to illustrate a simple point about fuel-efficient driving
+that, sadly, too few people seem to know: If you drive smoothly and try to avoid
+abrupt acceleration and deceleration as much as possible, you'll save fuel. It's
+sound advice (of course, use your judgement and don't put saving fuel above
+driving safely and sanely), and a good way to get a "feel" for that kind of
+driving is to imagine that there's a glass of water on your dash (or use
+Toyota's virtual water glass iPhone app) or an egg between the gas pedal and
+your foot (sorry, no app for that). Even better if you have a fuel economy gauge
+that shows you real time consumption. This doesn't mean you should drive slowly
+in traffic, but when appropriate, you can save a lot of gas (and CO2) by being a
+smooth operator.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>28dc4940-7562-48da-9c91-34711124462f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="solar-power-the-sky-is-the-limit">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>081284cd-4215-410c-8a49-1eb09b631183</sv:value>
+      </sv:property>
+      <sv:node sv:name="solar-power-the-sky-is-the-limit">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>ht:newsdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1a5aba6b-0191-43d0-bc86-749243c3e7ef</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>news/2011/solar-power-the-sky-is-the-limit</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-02-15T14:59:30.321Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-02-15T15:01:25.990Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2011-02-15T15:01:32.906Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>453dcd68-3617-4981-8d93-4fac5dae7d67</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:date" sv:type="Date">
+          <sv:value>2011-02-11T00:00:00.000+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:summary" sv:type="String">
+          <sv:value>This week’s record-breaking night flight by the Solar Impulse aircraft has been widely acclaimed, but few of us are ever likely to fly in such a plane.</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:title" sv:type="String">
+          <sv:value>Solar power: the sky is the limit</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Swiss adventurer Bertrand Piccard, the initiator of the project, pilot André
+Borschberg, and the host of designers and developers who made the flight
+possible may have entered the history books, but what does their achievement
+mean in practical terms? &lt;br/&gt;
+“I hope that in two years time at the next Green Aviation Show we shall be able
+to give a prize to the hero of the day, Bertrand Piccard,” Gerard Feldzer,
+director of the Air and Space Museum at Paris’ Le Bourget airport, told
+swissinfo.ch &lt;br/&gt;
+Feldzer, who has known Piccard for many years, is an expert on
+environmentally-friendly aircraft. He points out though that Solar Impulse is
+not the first plane of its type. &lt;br/&gt;
+The Green Aviation Show awarded for example its 2010 prize to Eric Raymond – who
+first crossed the United States in &lt;br/&gt;
+a solar-powered plane 20 years ago. &lt;br/&gt;
+The difference was that Raymond made his flight in one-hour hops, Feldzer
+explained.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Twice the size, ten times the problems&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“The technique is no different, but Piccard’s achievement is to build a big
+enough plane. When you double the size, that doesn’t mean you have twice the
+number of problems. You have ten times the problems.” &lt;br/&gt;
+On the one hand the structural challenge is much more complex – supporting the
+giant wing, and transmitting and storing the energy, for example. &lt;br/&gt;
+But a long flight is a human challenge too. &lt;br/&gt;
+“You have to be able sit still, take tiny snatches of sleep… It’s like a space
+flight, or even worse. You can’t move… Everything has to be within reach.”
+&lt;br/&gt;
+It would have been possible to fly a solar-powered drone across the Atlantic
+long ago, Feldzer explained; having a person on board “changes everything”.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>87e86b9d-c074-46e6-883d-b4a812d81428</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Solar power: the sky is the limit</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="pbs-show-asserts-greenhouse-gases-atmospheric-pollutants-dimming-future">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1ad9e652-7b39-45a2-88d5-38a8ca23b2cd</sv:value>
+      </sv:property>
+      <sv:node sv:name="pbs-show-asserts-greenhouse-gases-atmospheric-pollutants-dimming-future">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>ht:newsdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>2acbdf38-2369-40cb-b4e8-ea557e92ef41</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>news/2011/pbs-show-asserts-greenhouse-gases-atmospheric-pollutants-dimming-future</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-02-15T15:02:17.866Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-02-15T15:04:00.010Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2011-02-15T15:04:13.472Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>bb99b711-473b-4ac4-8ba0-50208ea6b1b7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:date" sv:type="Date">
+          <sv:value>2011-02-24T00:00:00.000+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:summary" sv:type="String">
+          <sv:value>This week, the Public Broadcasting Service aired a NOVA program titled “Dimming the Earth”, which presented research by leading scientists on the complex systems of our global climate and human activity's effect on it. One of the largest interactions (or "inputs") humans have with the atmosphere is the ever-increasing use of fossil fuels. Consumption has risen 2% per year for this decade.</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:title" sv:type="String">
+          <sv:value>PBS show asserts greenhouse gases, atmospheric pollutants dimming future</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;This week, the Public Broadcasting Service aired a NOVA program titled
+“Dimming the Earth”, which presented research by leading scientists on the
+complex systems of our global climate and human activity's effect on it. One of
+the largest interactions (or "inputs") humans have with the atmosphere is the
+ever-increasing use of fossil fuels. Consumption has risen 2% per year for this
+decade.&lt;/p&gt;
+
+&lt;p&gt;Fossil fuels burnt in factories and automobiles send their waste into our
+atmosphere in two forms. The first is CO2 and other greenhouse gases, which have
+received substantial attention in the last few years because of the way they
+trap heat in the atmosphere. The second is the tiny particles of sulfur dioxide,
+soot and ash, which scientists call aerosols (basically smog). Research into
+understanding the negative health effects of air pollution has resulted in the
+development of catalytic converters for cars as well as devices to remove
+particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>PBS show asserts greenhouse gases, atmospheric pollutants dimming future</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="2012">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>1ec4e07d-9e8d-4a86-8a8d-b9605e61449b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>faf18763-60b0-4191-be45-763178dc49dd</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo-cms-implementation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>54cf3589-207c-422c-a201-a8ccbef35a9c</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo-cms-implementation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>ht:newsdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>6dc61863-d802-444e-a896-6fcdb9f4cb69</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>news/2012/hippo-cms-implementation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2012-06-20T00:08:23.644+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-06-20T00:09:42.560+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2012-06-20T01:35:57.104+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>cea9ec45-6218-4a76-838b-a175e3e69d34</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:date" sv:type="Date">
+          <sv:value>2012-06-20T00:00:19.062+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:summary" sv:type="String">
+          <sv:value>I built a custom CMS site using the Hippo CMS7 platform. You're looking at it right now.</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:title" sv:type="String">
+          <sv:value>Hippo CMS7 Implementation</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;I will write something here.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Hippo CMS implementation</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="2009">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>df475115-35ce-4bff-96fd-69b598de43b7</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>9485cb0d-cbd4-4ea9-98b8-e550e2ba60a7</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="2010">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>1f9facb7-bdc1-4119-8ac0-09fc159d429e</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>faf18763-60b0-4191-be45-763178dc49dd</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="2011">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>be506575-dbe5-49b9-b31c-f087870ff863</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>9485cb0d-cbd4-4ea9-98b8-e550e2ba60a7</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="toyota-suggests-putting-a-glass-of-water-on-your-dash">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7ecb2884-4550-486e-9c11-25cef1e4083d</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Toyota suggests putting a glass of water on your dash</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="toyota-suggests-putting-a-glass-of-water-on-your-dash">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>ht:newsdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>07d2c429-74dc-4b1b-9566-ce10d987bf3b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>news/2011[2]/toyota-suggests-putting-a-glass-of-water-on-your-dash</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-02-15T14:55:29.386Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-07-26T17:50:49.478+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2012-07-26T17:50:53.093+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>c47a68d8-a5e9-4a22-b67b-80294f49ee9d</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:date" sv:type="Date">
+          <sv:value>2011-02-15T00:00:00.000+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:summary" sv:type="String">
+          <sv:value>For a 10% fuel consumption reduction...</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:title" sv:type="String">
+          <sv:value>Toyota suggests putting a glass of water on your dash (well, not really)</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;No, Toyota isn't trying to con you into buying a "water powered car". They
+are simply trying to illustrate a simple point about fuel-efficient driving
+that, sadly, too few people seem to know: If you drive smoothly and try to avoid
+abrupt acceleration and deceleration as much as possible, you'll save fuel. It's
+sound advice (of course, use your judgement and don't put saving fuel above
+driving safely and sanely), and a good way to get a "feel" for that kind of
+driving is to imagine that there's a glass of water on your dash (or use
+Toyota's virtual water glass iPhone app) or an egg between the gas pedal and
+your foot (sorry, no app for that). Even better if you have a fuel economy gauge
+that shows you real time consumption. This doesn't mean you should drive slowly
+in traffic, but when appropriate, you can save a lot of gas (and CO2) by being a
+smooth operator.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>28dc4940-7562-48da-9c91-34711124462f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="solar-power-the-sky-is-the-limit">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>fc679cf7-69ab-4450-afbb-12a0e3a4a010</sv:value>
+      </sv:property>
+      <sv:node sv:name="solar-power-the-sky-is-the-limit">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>ht:newsdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a0c1415c-84f1-45b6-a94e-a58a0ad8094e</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>news/2011[2]/solar-power-the-sky-is-the-limit</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-02-15T14:59:30.321Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-02-15T15:01:25.990Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2011-02-15T15:01:32.906Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>453dcd68-3617-4981-8d93-4fac5dae7d67</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:date" sv:type="Date">
+          <sv:value>2011-02-11T00:00:00.000+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:summary" sv:type="String">
+          <sv:value>This week’s record-breaking night flight by the Solar Impulse aircraft has been widely acclaimed, but few of us are ever likely to fly in such a plane.</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:title" sv:type="String">
+          <sv:value>Solar power: the sky is the limit</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Swiss adventurer Bertrand Piccard, the initiator of the project, pilot André
+Borschberg, and the host of designers and developers who made the flight
+possible may have entered the history books, but what does their achievement
+mean in practical terms? &lt;br/&gt;
+“I hope that in two years time at the next Green Aviation Show we shall be able
+to give a prize to the hero of the day, Bertrand Piccard,” Gerard Feldzer,
+director of the Air and Space Museum at Paris’ Le Bourget airport, told
+swissinfo.ch &lt;br/&gt;
+Feldzer, who has known Piccard for many years, is an expert on
+environmentally-friendly aircraft. He points out though that Solar Impulse is
+not the first plane of its type. &lt;br/&gt;
+The Green Aviation Show awarded for example its 2010 prize to Eric Raymond – who
+first crossed the United States in &lt;br/&gt;
+a solar-powered plane 20 years ago. &lt;br/&gt;
+The difference was that Raymond made his flight in one-hour hops, Feldzer
+explained.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Twice the size, ten times the problems&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“The technique is no different, but Piccard’s achievement is to build a big
+enough plane. When you double the size, that doesn’t mean you have twice the
+number of problems. You have ten times the problems.” &lt;br/&gt;
+On the one hand the structural challenge is much more complex – supporting the
+giant wing, and transmitting and storing the energy, for example. &lt;br/&gt;
+But a long flight is a human challenge too. &lt;br/&gt;
+“You have to be able sit still, take tiny snatches of sleep… It’s like a space
+flight, or even worse. You can’t move… Everything has to be within reach.”
+&lt;br/&gt;
+It would have been possible to fly a solar-powered drone across the Atlantic
+long ago, Feldzer explained; having a person on board “changes everything”.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>87e86b9d-c074-46e6-883d-b4a812d81428</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Solar power: the sky is the limit</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="pbs-show-asserts-greenhouse-gases-atmospheric-pollutants-dimming-future">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3d766bf0-46fc-44c4-97b4-16aabb0dcd9d</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>PBS show asserts greenhouse gases, atmospheric pollutants dimming future</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="pbs-show-asserts-greenhouse-gases-atmospheric-pollutants-dimming-future">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>ht:newsdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b64873fc-ea7b-40c0-9526-61c896557ef1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>news/2011[2]/pbs-show-asserts-greenhouse-gases-atmospheric-pollutants-dimming-future</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-02-15T15:02:17.866Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-07-26T17:51:05.298+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2012-07-26T17:51:17.094+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>bb99b711-473b-4ac4-8ba0-50208ea6b1b7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:date" sv:type="Date">
+          <sv:value>2011-02-24T00:00:00.000+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:summary" sv:type="String">
+          <sv:value>This week, the Public Broadcasting Service aired a NOVA program titled “Dimming the Earth”, which presented research by leading scientists on the complex systems of our global climate and human activity's effect on it. One of the largest interactions (or "inputs") humans have with the atmosphere is the ever-increasing use of fossil fuels. Consumption has risen 2% per year for this decade.</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:title" sv:type="String">
+          <sv:value>PBS show asserts greenhouse gases, atmospheric pollutants dimming future</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;This week, the Public Broadcasting Service aired a NOVA program titled
+“Dimming the Earth”, which presented research by leading scientists on the
+complex systems of our global climate and human activity's effect on it. One of
+the largest interactions (or "inputs") humans have with the atmosphere is the
+ever-increasing use of fossil fuels. Consumption has risen 2% per year for this
+decade.&lt;/p&gt;
+
+&lt;p&gt;Fossil fuels burnt in factories and automobiles send their waste into our
+atmosphere in two forms. The first is CO2 and other greenhouse gases, which have
+received substantial attention in the last few years because of the way they
+trap heat in the atmosphere. The second is the tiny particles of sulfur dioxide,
+soot and ash, which scientists call aerosols (basically smog). Research into
+understanding the negative health effects of air pollution has resulted in the
+development of catalytic converters for cars as well as devices to remove
+particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="2012">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>48df0e90-e370-451d-b068-729a8df0be63</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>faf18763-60b0-4191-be45-763178dc49dd</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo-cms-implementation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e4ea1c14-1be6-42db-aa53-e02559d8250a</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Hippo CMS implementation</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippo-cms-implementation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>ht:newsdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>80d7a953-db9f-4d67-badf-4ad41a9fdd6c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>news/2012[2]/hippo-cms-implementation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2012-06-20T00:08:23.644+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-07-27T19:33:53.156+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2012-07-27T19:33:56.408+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>cea9ec45-6218-4a76-838b-a175e3e69d34</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:date" sv:type="Date">
+          <sv:value>2012-06-20T00:00:19.062+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:summary" sv:type="String">
+          <sv:value>I built a custom CMS site using Hippo. You're looking at it right now.</sv:value>
+        </sv:property>
+        <sv:property sv:name="ht:title" sv:type="String">
+          <sv:value>Hippo CMS7 Implementation</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla est
+quis dolor bibendum elementum. Aliquam a sem sit amet lacus bibendum suscipit id
+sed justo. Vestibulum cursus dapibus feugiat. Vivamus suscipit, magna ac rutrum
+commodo, felis arcu molestie augue, et consectetur libero nisi id quam. Etiam
+quis dolor purus. In rhoncus tincidunt facilisis. Maecenas tristique semper sem,
+at tincidunt elit sagittis eu. Duis sit amet tortor ut magna ornare euismod nec
+eu ipsum. Quisque vestibulum feugiat tortor, blandit pellentesque tortor
+suscipit eleifend. Aenean rhoncus, metus quis congue molestie, leo neque
+vehicula urna, at accumsan nunc nisi non mauris. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Praesent imperdiet enim
+sed risus ornare ac facilisis tortor mattis.&lt;/p&gt;
+
+&lt;p&gt;Sed bibendum aliquet tellus, non commodo nibh elementum a. Phasellus sed erat
+sed risus dignissim vestibulum. Proin sem enim, ultrices non consequat a,
+tincidunt a sem. Pellentesque eget ante ut orci rutrum consequat. Duis tellus
+augue, venenatis id scelerisque vitae, fermentum ut lorem. Donec ut urna id
+velit tincidunt eleifend ut a nulla. Class aptent taciti sociosqu ad litora
+torquent per conubia nostra, per inceptos himenaeos. Praesent euismod, nulla non
+malesuada ultrices, elit nunc accumsan arcu, nec euismod libero mauris quis
+felis. Curabitur laoreet sem nec leo elementum consectetur fringilla nibh
+imperdiet. Pellentesque feugiat pulvinar scelerisque. Aliquam eu varius ligula.
+Nam rutrum blandit magna nec condimentum. Nam sapien felis, semper id faucibus
+sed, hendrerit non lorem. Donec aliquam posuere odio, in cursus orci euismod
+quis. Curabitur justo mi, imperdiet id consequat eget, aliquam vel purus. Donec
+luctus, quam sed consectetur ultrices, erat elit consectetur lorem, nec pulvinar
+leo mi in sapien.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse congue, lectus ac volutpat lacinia, nunc mi pulvinar leo, a
+convallis turpis tortor at leo. Sed ac iaculis quam. Cras pulvinar congue velit,
+id tristique sapien facilisis pulvinar. Cras pellentesque orci quis mauris
+ultricies accumsan vitae vel urna. Fusce feugiat leo non velit rhoncus laoreet.
+Morbi commodo vehicula imperdiet. Nullam laoreet feugiat odio, at sollicitudin
+nisi lacinia ac. Proin pharetra ornare augue, vel euismod libero elementum eget.
+Aenean ornare purus quis arcu sagittis id semper est auctor. Vestibulum
+convallis molestie mauris pellentesque porta. Aliquam ut lacus at leo feugiat
+cursus volutpat sit amet enim.&lt;/p&gt;
+
+&lt;p&gt;Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus et
+ultrices posuere cubilia Curae; Mauris vitae tellus quis lorem varius faucibus
+nec a tellus. Nunc lobortis convallis ornare. Nam ante neque, mattis eu
+tincidunt a, consequat eget nulla. Suspendisse mattis metus vel massa fermentum
+in rhoncus urna vestibulum. Praesent hendrerit, nisl eget pharetra pharetra,
+erat magna aliquam arcu, non adipiscing purus orci eu ligula. Aliquam interdum
+risus id nulla porta tristique. Praesent bibendum justo sit amet justo molestie
+luctus. Pellentesque viverra faucibus consectetur. Phasellus quis tortor nec
+eros fringilla dignissim.&lt;/p&gt;
+
+&lt;p&gt;Proin ac diam quis sem pretium lacinia non id nisl. Sed pharetra eleifend
+nulla, et rutrum orci tempus at. Cras vel dolor in leo feugiat adipiscing.
+Phasellus eget quam ut sapien venenatis semper. In hac habitasse platea
+dictumst. Praesent porta, sapien non dictum imperdiet, elit urna volutpat enim,
+nec tempor neque risus vitae odio. Duis pellentesque, dui at laoreet venenatis,
+risus nibh sodales felis, vel ultricies erat ligula eu sem. Aliquam erat
+volutpat. Vivamus nec mauris sapien, a convallis enim. Aenean ornare nulla sed
+augue pellentesque quis posuere sem sollicitudin. Ut accumsan iaculis risus eget
+imperdiet. Aliquam erat volutpat. Pellentesque at turpis at leo semper tempor
+sed in nisl. Etiam laoreet leo at nulla mattis dapibus.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ht:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4df31953-063d-4ada-bc99-ae3b303675f7</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>News</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>News</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>
