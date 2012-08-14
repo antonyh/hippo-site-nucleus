@@ -2,6 +2,15 @@
 <project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="ht-cms">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="ht-content-1.01.00-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ht-content/ht-content">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/overlay/var/M2_REPO/org/onehippo/cms7/hippo-package-cms-resources/2.22.04/hippo-package-cms-resources-2.22.04.war?unpackFolder=target/m2e-wtp/overlays&amp;includes=**/**&amp;excludes=META-INF/MANIFEST.MF">
+            <dependency-type>consumes</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/overlay/slf/?includes=**/**&amp;excludes=META-INF/MANIFEST.MF">
+            <dependency-type>consumes</dependency-type>
+        </dependent-module>
         <property name="context-root" value="ht-cms"/>
         <property name="java-output-path" value="/ht-cms/target/classes"/>
     </wb-module>

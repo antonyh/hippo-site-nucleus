@@ -22,7 +22,7 @@
 
 		<hst:cmseditlink hippobean="${document}" />
 
-		<div class="grid_8 alpha omega homebody">
+		<div class="grid_12 alpha omega homebody">
 			 <hst:html hippohtml="${document.html}" />
 		</div>
 

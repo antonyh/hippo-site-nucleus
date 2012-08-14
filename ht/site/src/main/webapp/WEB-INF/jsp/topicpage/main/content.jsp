@@ -5,6 +5,7 @@
 <%--@elvariable id="pages" type="java.util.Collection<java.lang.Integer>"--%>
 <%--@elvariable id="query" type="java.lang.String"--%>
 <%--@elvariable id="sidebarresult" type="org.hippoecm.hst.content.beans.query.HstQueryResult"--%>
+<%--@elvariable id="articles" type="org.hippoecm.hst.content.beans.query.HstQueryResult"--%>
 
 <c:choose>
 	<c:when test="${empty document}">
@@ -23,21 +24,25 @@
 
 			<div class="grid_8 pagetitle">
 				<h1>${document.title}</h1>
-				<c:if test="${not empty result.totalSize}"> Total results ${result.totalSize}</c:if>
+<%-- 				<c:if test="${not empty articles.totalSize}"> Total results ${articles.totalSize}</c:if> --%>
 			</div>
 			<div class="grid_8">
-			
-			[replace this with a list of matches]
-				<ul>
-					<c:forEach var="item" items="${result.hippoBeans}">
-						<hst:link var="link" hippobean="${item}" />
-						<li class="overview-item"><hst:cmseditlink
-								hippobean="${item}" />
-							<div>
-								<p>
-									<a href="${link}">${item.title}</a>
-								</p>
-							</div></li>
+
+				<ul class="overview">
+					<c:forEach var="item" items="${articles.hippoBeans}">
+						<c:catch var="exception">
+							<hst:link var="link" hippobean="${item}" />
+							<c:if test="${not empty link}">
+								<hst:cmseditlink hippobean="${item}" />
+								<li>
+									<div>
+										<p>
+											<a href="${link}">${item.title}</a>
+										</p>
+									</div>
+								</li>
+							</c:if>
+						</c:catch>
 					</c:forEach>
 				</ul>
 			</div>

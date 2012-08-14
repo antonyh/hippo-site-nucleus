@@ -4,10 +4,12 @@
 <%--@elvariable id="topmenu" type="org.hippoecm.hst.core.sitemenu.HstSiteMenu"--%>
 
 
-<div id="nav" class="container_12">
-<nav class="grid_12 push_0 alpha omega">
+<div id="nav" class="container_nav">
+<div class="container_12">
+<nav >
 <c:forEach var="item" items="${topmenu.siteMenuItems}"><tag:menuitem siteMenuItem="${item}"/></c:forEach>
 </nav>
+</div>
 </div>
 <div class="container_12">
 <div class="grid_10 sitetitle"><c:out value="${headerName}"/></div>

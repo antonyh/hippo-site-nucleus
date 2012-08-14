@@ -22,7 +22,6 @@ public class Home extends BaseComponent {
 
 		HippoBean doc = getContentBean(request);
 
-		// System.out.println("x");
 		if (doc == null) {
 			log.warn(
 					"Did not find a content bean for relative content path '{}' for pathInfo '{}'",

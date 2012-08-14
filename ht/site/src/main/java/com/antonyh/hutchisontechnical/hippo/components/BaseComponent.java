@@ -26,9 +26,21 @@ public abstract class BaseComponent extends BaseHstComponent {
 
 	public void createAndExecuteSearch(final BaseComponent bc,
 			final HstRequest request, final GeneralListInfo info,
+			final HippoBean scope, final String query,
+			final String attributePrefix) throws HstComponentException {
+
+		createAndExecuteSearch(bc, request, info, scope, query,
+				attributePrefix, null);
+
+	}
+
+	public void createAndExecuteSearch(final BaseComponent bc,
+			final HstRequest request, final GeneralListInfo info,
 			final HippoBean scope, final String query)
 			throws HstComponentException {
-		createAndExecuteSearch(bc, request, info, scope, query, "");
+
+		createAndExecuteSearch(bc, request, info, scope, query, "", null);
+
 	}
 
 	/**
@@ -51,7 +63,8 @@ public abstract class BaseComponent extends BaseHstComponent {
 	protected void createAndExecuteSearch(final BaseComponent bc,
 			final HstRequest request, final GeneralListInfo info,
 			final HippoBean scope, final String query,
-			final String attributePrefix) throws HstComponentException {
+			final String attributePrefix, final String topic)
+			throws HstComponentException {
 		if (scope == null) {
 			throw new HstComponentException(
 					"Scope is not allowed to be null for a search");
@@ -99,9 +112,9 @@ public abstract class BaseComponent extends BaseHstComponent {
 				}
 			}
 
-			Filter filter = hstQuery.createFilter();
-			hstQuery.setFilter(filter);
-			// filter.addNotNull("ht:image/hippo:translation/hippo:message");
+			// Filter filter = hstQuery.createFilter();
+			// hstQuery.setFilter(filter);
+			// // filter.addNotNull("ht:image/hippo:translation/hippo:message");
 
 			String parsedQuery = SearchInputParsingUtils.parse(query, false);
 			if (parsedQuery != null && !parsedQuery.equals(query)) {
@@ -115,8 +128,15 @@ public abstract class BaseComponent extends BaseHstComponent {
 				hstQuery.setFilter(f);
 			}
 
-			log.error("query is {}", hstQuery.getQueryAsString(true));
+			if (topic != null) {
+				Filter f = hstQuery.createFilter();
+				f.addNotNull("ht:summary");
+				f.addEqualTo("ht:topic/hippo:docbase", topic);
+				hstQuery.setFilter(f);
+			}
 
+			// log.trace("query is {}", hstQuery.getQueryAsString(true));
+			// log.trace("--");
 			HstQueryResult result = hstQuery.execute();
 
 			request.setAttribute(attributePrefix + "result", result);

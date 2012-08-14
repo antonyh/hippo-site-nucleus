@@ -71,7 +71,7 @@ public class Detail extends BaseComponent {
 					"For an Home component there must be a content bean available to search below. Cannot create an overview");
 		}
 
-		createAndExecuteSearch(this, request, info, scopeBean, null, "sidebar");
+		createAndExecuteSearch(this, request, info, scopeBean, "", "sidebar");
 	}
 
 }

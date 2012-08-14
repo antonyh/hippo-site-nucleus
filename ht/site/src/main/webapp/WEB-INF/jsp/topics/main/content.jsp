@@ -23,7 +23,7 @@
     </h1>
     </div>
     <div class="grid_8">
-    <ul>
+    <ul class="overview">
       <c:forEach var="item" items="${result.hippoBeans}">
         <hst:link var="link" hippobean="${item}"/>
         <li>

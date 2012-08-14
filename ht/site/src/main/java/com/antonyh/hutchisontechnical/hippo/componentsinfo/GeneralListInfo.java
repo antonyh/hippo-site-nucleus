@@ -16,7 +16,7 @@ public interface GeneralListInfo {
 	@Parameter(name = "sortBy", displayName = "Sort By Property", defaultValue = "date")
 	String getSortBy();
 
-	@Parameter(name = "sortOrder", displayName = "Sort Order", defaultValue = "ascending")
+	@Parameter(name = "sortOrder", displayName = "Sort Order", defaultValue = "descending")
 	String getSortOrder();
 
 }

@@ -24,16 +24,16 @@
     </h1>
     </div>
     <div class="grid_8">
-    <ul>
+    <ul class="overview">
       <c:forEach var="item" items="${result.hippoBeans}">
         <hst:link var="link" hippobean="${item}"/>
-        <li class="overview-item">
+        <li>
           <hst:cmseditlink hippobean="${item}"/>
 
           <div>
 	        <p><a href="${link}">${item.title}</a></p>
             <c:if test="${hst:isReadable(item, 'date.time')}">
-              <p><fmt:formatDate value="${item.date.time}" type="Date" pattern="dd MMMM yyyy"/></p>
+              <p class="overview_date"><fmt:formatDate value="${item.date.time}" type="Date" pattern="dd MMMM yyyy"/></p>
             </c:if>
 
             <p>${item.summary}</p>
