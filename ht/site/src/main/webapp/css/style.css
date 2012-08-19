@@ -344,6 +344,12 @@ p.overview_date {
 	color: #999999;
 }
 
+
+div.grid_4.imageblock.framed{
+	margin-right:1em;
+}
+
+
 @media print { /* print specific styling here*/
 }
 
@@ -448,7 +454,9 @@ body {
 		margin-left: 10px;
 	}
 	div.pagetitle h1 {
-		font-size: 1.1em;
+		font-size: 1.5em;
+		margin-right: 0.3em;
+		margin-left: 0.3em;
 	}
 	h2 {
 		font-size: 1.0em;
@@ -459,14 +467,13 @@ body {
 	div#nav {
 		padding-bottom: 1em;
 	}
-	div#content p,div#content h2 {
-		margin-right: 0.3em;
-		margin-left: 0.3em
-	}
+ 
 	article {
 		border-bottom: 1px solid #dddddd;
 		margin-bottom: 3em;
 		padding-bottom: 2em;
+		margin-right: 0.3em;
+		margin-left: 0.3em;
 	}
 }
 
@@ -502,9 +509,6 @@ body {
 	}
 	h2 {
 		font-size: 1.2em;
-	}
-	h1:before {
-		content: "30em";
 	}
 }
 
@@ -550,22 +554,17 @@ body {
 	h2 {
 		font-size: 1.3em;
 	}
-	h1:before {
-		content: "37.5em";
-	}
 }
 
 /* ===== == = === 48em (768px) === = == ===== */
 @media only screen and (min-width : 48em) {
-	h1:before {
-		content: "48em";
-	}
+
 	body {
 		width: 100%;
 		min-width: 48em;
 	}
 	.container_12 .grid_1,.container_12 .grid_2,.container_12 .grid_3,.container_12 .grid_4,.container_12 .grid_5,.container_12 .grid_6,.container_12 .grid_7,.container_12 .grid_8,.container_12 .grid_9,.container_12 .grid_10,.container_12 .grid_11,.container_12 .grid_12
-		{
+	{
 		width: 48em;
 	}
 	div.sitetitle {
@@ -601,9 +600,6 @@ body {
 		width: 56.25em;
 		min-width: 56.25em;
 	}
-	h1:before {
-		content: "56.25em";
-	}
 }
 
 /* ===== == = === 68.75em (960px) === = == ===== */
@@ -612,15 +608,15 @@ body {
 		width: 100%;
 		min-width: 100%;
 	}
-	h1:before {
-		content: "60em";
-	}
 	article {
 		border-bottom: 0;
 		margin-bottom: 0;
 		padding-bottom: 0;
 	}
-
+	div#content p,div#content h2 {
+		margin-right: 0;
+		margin-left: 0;
+	}
 	/* `Container
 ----------------------------------------------------------------------------------------------------*/
 	.container_12 {
@@ -847,3 +843,4 @@ body {
 		min-width: 100%;
 	}
 }
+

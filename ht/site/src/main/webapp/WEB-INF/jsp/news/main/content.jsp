@@ -1,6 +1,6 @@
 <%@ include file="/WEB-INF/jspf/htmlTags.jspf"%>
 <%--@elvariable id="document" type="org.example.beans.NewsDocument"--%>
-
+ 
 <c:choose>
 	<c:when test="${empty document}">
 		<tag:pagenotfound />

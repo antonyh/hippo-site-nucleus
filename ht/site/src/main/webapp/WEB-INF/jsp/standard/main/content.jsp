@@ -24,7 +24,7 @@
 				</div>
 				<div class="grid_8 alpha omega">
 					<c:if test="${hst:isReadable(document, 'image.original')}">
-						<div class="grid_4 alpha imageblock"
+						<div class="grid_4 alpha imageblock framed"
 							style="background-image:url('${img}');">
 							<div>${document.summary}</div>
 						</div>
