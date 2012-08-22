@@ -1,14 +1,24 @@
 package com.antonyh.hutchisontechnical.hippo.components;
 
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import org.hippoecm.hst.content.beans.query.HstQuery;
+import org.hippoecm.hst.content.beans.query.exceptions.QueryException;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
+import org.hippoecm.hst.content.beans.standard.HippoDocumentBean;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 import org.hippoecm.hst.core.parameters.ParametersInfo;
+import org.hippoecm.hst.util.ContentBeanUtils;
 import org.hippoecm.hst.util.PathUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.antonyh.hutchisontechnical.hippo.beans.ArticleDocument;
+import com.antonyh.hutchisontechnical.hippo.beans.ValueProposition;
 import com.antonyh.hutchisontechnical.hippo.componentsinfo.ListViewInfo;
 import com.antonyh.hutchisontechnical.hippo.componentsinfo.SidebarListViewInfo;
 
@@ -71,7 +81,39 @@ public class Detail extends BaseComponent {
 					"For an Home component there must be a content bean available to search below. Cannot create an overview");
 		}
 
+		setValuePropositions(request, response, doc);
+
 		createAndExecuteSearch(this, request, info, scopeBean, "", "sidebar");
 	}
 
+	private void setValuePropositions(final HstRequest request,
+			final HstResponse response, final HippoBean doc)
+			throws HstComponentException {
+
+		ArticleDocument article = (ArticleDocument) doc;
+		List<HippoBean> topics = article.getTopics();
+
+		try {
+			Set<HippoBean> valuePropositions = new HashSet<HippoBean>();
+			for (HippoBean topic : topics) {
+
+				HstQuery valuePropositionQuery = ContentBeanUtils
+						.createIncomingBeansQuery((HippoDocumentBean) topic,
+								getSiteContentBaseBean(request),
+								"ht:topic/@hippo:docbase",
+								getObjectConverter(), ValueProposition.class,
+								false);
+
+				valuePropositions.addAll(ContentBeanUtils.getIncomingBeans(
+						valuePropositionQuery, ValueProposition.class));
+
+			}
+
+			request.setAttribute("valueresult", valuePropositions);
+
+		} catch (QueryException e) {
+
+		}
+
+	}
 }

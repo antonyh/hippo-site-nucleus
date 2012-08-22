@@ -31,6 +31,7 @@
 					</c:if>
 					<hst:html hippohtml="${document.html}" />
 				</div>
+				
 			</article>
 		</c:catch>
 

@@ -57,7 +57,7 @@
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>c28afed0-566c-4adf-814a-37408ba98262</sv:value>
+        <sv:value>952d1ace-2f13-4b67-8c22-49ffae96bcff</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -82,13 +82,13 @@
         <sv:value>2012-06-20T00:05:03.852+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2012-08-13T17:41:52.779+01:00</sv:value>
+        <sv:value>2012-08-23T00:14:23.466+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2012-08-13T17:41:55.506+01:00</sv:value>
+        <sv:value>2012-08-23T00:14:43.434+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>87da152c-3b2e-49f2-a4c8-7d7869bcd10c</sv:value>
@@ -162,6 +162,14 @@ own page.  &lt;/li&gt;
         <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="ht:topic">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>6a69d2cb-80e0-493e-a145-5bcbf37e6cc0</sv:value>
+        </sv:property>
       </sv:node>
     </sv:node>
   </sv:node>
