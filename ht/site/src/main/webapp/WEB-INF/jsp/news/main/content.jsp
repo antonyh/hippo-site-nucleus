@@ -49,7 +49,7 @@
 				 %>
 				<c:forEach var="item" items="${valueresult}">
 				<div class="grid_8 alpha omega">
-					<h3>${item.title}</h3>
+					<h2>${item.title}</h2>
 					<p>Cras eu tortor sem. Praesent vitae dolor augue. Curabitur in elit sit amet leo vehicula sodales quis in lorem. Ut mattis sollicitudin nunc, vel ultrices velit tincidunt nec. Morbi congue tincidunt metus ut condimentum. Donec facilisis, risus a hendrerit ullamcorper, tellus odio luctus nisl, non blandit neque elit sit amet erat. Maecenas varius ante et sem ullamcorper et commodo mi vehicula.</p>
 				</div>
 				</c:forEach>

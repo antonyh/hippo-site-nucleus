@@ -32,7 +32,7 @@
 					<c:forEach var="item" items="${articles.hippoBeans}">
 						<c:catch var="exception">
 							<hst:link var="link" hippobean="${item}" />
-							<c:if test="${not empty link}">
+							<c:if test="${not empty link && not fn:endsWith(link,'/pagenotfound')}">
 								<hst:cmseditlink hippobean="${item}" />
 								<li>
 									<div>

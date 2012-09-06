@@ -57,7 +57,7 @@
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>952d1ace-2f13-4b67-8c22-49ffae96bcff</sv:value>
+        <sv:value>f8d8bdc0-1ca2-40d4-976e-31f2fc0f8dc8</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -82,13 +82,13 @@
         <sv:value>2012-06-20T00:05:03.852+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2012-08-23T00:14:23.466+01:00</sv:value>
+        <sv:value>2012-09-06T14:56:51.139+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2012-08-23T00:14:43.434+01:00</sv:value>
+        <sv:value>2012-09-06T14:56:53.786+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>87da152c-3b2e-49f2-a4c8-7d7869bcd10c</sv:value>
@@ -103,10 +103,10 @@
         <sv:value>true</sv:value>
       </sv:property>
       <sv:property sv:name="ht:imageCredit" sv:type="String">
-        <sv:value/>
+        <sv:value>Antony Hutchison</sv:value>
       </sv:property>
       <sv:property sv:name="ht:string" sv:type="String">
-        <sv:value/>
+        <sv:value>http://antonyh.co.uk/</sv:value>
       </sv:property>
       <sv:property sv:name="ht:summary" sv:type="String">
         <sv:value>This is a to-do list that is really an article.</sv:value>
@@ -127,26 +127,31 @@
           <sv:value>&lt;html&gt;
 &lt;body&gt;
 
-&lt;p&gt;This example article demonstrates the layout of the article.&lt;/p&gt;
+&lt;p&gt;This example article demonstrates the layout of the article and serves as a
+reminder on the tasks that I still need to do.&lt;/p&gt;
 &lt;h2&gt;About the article  &lt;/h2&gt;
 &lt;p&gt;There are many things we can say about an article.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;it has a title &lt;/li&gt;
-&lt;li&gt;it has a summary&lt;/li&gt;
-&lt;li&gt;we can add an image that's displayed in lists and on the article&lt;/li&gt;
+&lt;li&gt;it has a title and a summary&lt;/li&gt;
+&lt;li&gt;we can add an image that's displayed in lists and on the article. News
+articles have to have this information in the body text.&lt;/li&gt;
 &lt;li&gt;we want to give credit to the image as a label and with a link to the
-source. This is very important to comply with CC licencing.&lt;/li&gt;
+source. It's important to keep track of image sources.&lt;/li&gt;
 &lt;li&gt;The layout of the article edit page has no bearing on the presentation of
 the article in the channels.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;What next? &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;The article can appear in lists, on the homepage, in the sidebar, or on it's
-own page.  &lt;/li&gt;
-&lt;li&gt;add the value propositions to the pages&lt;/li&gt;
 &lt;li&gt;add the related topics to the pages&lt;/li&gt;
+&lt;li&gt;add the ubiquitous image carousal to the home page&lt;/li&gt;
+&lt;li&gt;change the contact form to use hippo forms instead of Google Docs&lt;/li&gt;
+&lt;li&gt;add social media sharing buttons to the article pages&lt;/li&gt;
+&lt;li&gt;add text to topics to make the page more useful as a document&lt;/li&gt;
+&lt;li&gt;add text to the articles and topics listing pages to make them more useful
+&lt;/li&gt;
 &lt;/ul&gt;
+&lt;br/&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;</sv:value>
@@ -495,126 +500,6 @@ auctor. Sed non metus felis. &lt;/p&gt;
           <sv:value>70862527-d115-4876-bbbe-ac44ba6b36a6</sv:value>
         </sv:property>
       </sv:node>
-    </sv:node>
-  </sv:node>
-  <sv:node sv:name="social-media-icons">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:handle</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippo:hardhandle</sv:value>
-      <sv:value>hippo:translated</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>0c323a12-51b1-473d-b663-d37c3b37e063</sv:value>
-    </sv:property>
-    <sv:node sv:name="social-media-icons">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>ht:articledocument</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:harddocument</sv:value>
-        <sv:value>hippotranslation:translated</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>fc41b5d5-8dfd-4493-8c77-a893d3465271</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-        <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>articles/social-media-icons</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:holder" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:state" sv:type="String">
-        <sv:value>published</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2012-08-13T18:30:13.981+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2012-08-13T18:30:47.324+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2012-08-13T18:30:50.541+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>507c8df8-d3d2-4402-b3e2-3092bd60f360</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
-      </sv:property>
-      <sv:property sv:name="ht:imageCredit" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="ht:string" sv:type="String">
-        <sv:value>http://narjisnaqvi.deviantart.com/art/Web-social-icons-117562335</sv:value>
-      </sv:property>
-      <sv:property sv:name="ht:summary" sv:type="String">
-        <sv:value>The social sharing buttons in the footer</sv:value>
-      </sv:property>
-      <sv:property sv:name="ht:title" sv:type="String">
-        <sv:value>Social Media Icons</sv:value>
-      </sv:property>
-      <sv:node sv:name="hippotranslation:translations">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippotranslation:translations</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="ht:body">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippostd:html</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;html&gt;
-&lt;body&gt;
-&lt;a href="http://narjisnaqvi.deviantart.com/art/Web-social-icons-117562335"&gt;http://narjisnaqvi.deviantart.com/art/Web-social-icons-117562335&lt;/a&gt;
-&lt;/body&gt;
-&lt;/html&gt;</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="ht:image">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippogallerypicker:imagelink</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-      </sv:node>
-      <sv:node sv:name="ht:topic">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:mirror</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
-        </sv:property>
-      </sv:node>
-    </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>social media icons</sv:value>
-      </sv:property>
     </sv:node>
   </sv:node>
 </sv:node>

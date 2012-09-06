@@ -9,9 +9,9 @@ import org.hippoecm.hst.util.PathUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.antonyh.hutchisontechnical.hippo.componentsinfo.ListViewInfo;
+import com.antonyh.hutchisontechnical.hippo.componentsinfo.HomeListViewInfo;
 
-@ParametersInfo(type = ListViewInfo.class)
+@ParametersInfo(type = HomeListViewInfo.class)
 public class Home extends BaseComponent {
 
 	public static final Logger log = LoggerFactory.getLogger(Home.class);
@@ -34,7 +34,7 @@ public class Home extends BaseComponent {
 		}
 		request.setAttribute("document", doc);
 
-		ListViewInfo info = getParametersInfo(request);
+		HomeListViewInfo info = getParametersInfo(request);
 		HippoBean scopeBean = null;
 
 		String scope = info.getScope();

@@ -3,12 +3,12 @@
 <footer>
 <div class="container_12">
 <div class="grid_4 push_8">
-<a href="http://www.hutchisontechnical.co.uk/">Hutchison Technical</a> built this site with <a href="#">Hippo CMS</a>
+<a href="http://www.hutchisontechnical.co.uk/">Hutchison Technical</a> built this site with <a href="http://www.onehippo.org/">Hippo CMS</a>
 </div>
 <div class="grid_8 pull_4">
-<div class="twitter">
-<a href="https://twitter.com/?related=antonyhutchison&status=${twitterShareMessage}" class="twitter-share-button">Tweet = ${pageTitle} - ${pageUrl }</a>
-</div>
+<!-- <div class="twitter"> -->
+<%-- <a href="https://twitter.com/?related=antonyhutchison&status=${twitterShareMessage}" class="twitter-share-button">Tweet = ${pageTitle} - ${pageUrl }</a> --%>
+<!-- </div> -->
 
 <!-- Place this tag where you want the +1 button to render -->
 <g:plusone></g:plusone>

@@ -1,5 +1,8 @@
 package com.antonyh.hutchisontechnical.hippo.components;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.hippoecm.hst.content.beans.query.HstQuery;
 import org.hippoecm.hst.content.beans.query.HstQueryResult;
 import org.hippoecm.hst.content.beans.query.exceptions.QueryException;
@@ -56,10 +59,13 @@ public class TopicPage extends Detail {
 			// TopicDefinition
 			// 3. are located below getSiteContentBaseBean(request), thus, the
 			// entire content of the (sub)site
+
+			List<String> linkPaths = new ArrayList<String>();
+			linkPaths.add("ht:topic/@hippo:docbase");
+
 			HstQuery articlesQuery = ContentBeanUtils.createIncomingBeansQuery(
-					topic, getSiteContentBaseBean(request),
-					"ht:topic/@hippo:docbase", getObjectConverter(),
-					BaseDocument.class, true);
+					topic, getSiteContentBaseBean(request), linkPaths,
+					getObjectConverter(), BaseDocument.class, true);
 
 			// to the created query, you can do the normal stuff you can do with
 			// a HstQuery

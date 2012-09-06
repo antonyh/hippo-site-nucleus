@@ -90,6 +90,10 @@ public class Detail extends BaseComponent {
 			final HstResponse response, final HippoBean doc)
 			throws HstComponentException {
 
+		if (!(doc instanceof ArticleDocument)) {
+			return;
+		}
+
 		ArticleDocument article = (ArticleDocument) doc;
 		List<HippoBean> topics = article.getTopics();
 
