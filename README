@@ -1,3 +1,3 @@
 README
 
-
+This project is intended a starting point for Hippo CMS, and is used as the website for www.hutchisontechnical.co.uk. Based on the archetype provided by Hippo, it uses Eclipse / Java 1.6 / Maven as the toolchain, with jRebel optional.
