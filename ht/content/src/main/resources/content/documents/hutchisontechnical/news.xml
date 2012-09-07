@@ -511,7 +511,7 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>3baa6dba-2753-4656-91c4-062f31b37709</sv:value>
+          <sv:value>d8ea590c-0b1d-4d9f-b287-eb0e6ed3526f</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -536,13 +536,13 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>2012-06-20T00:08:23.644+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2012-09-06T14:43:34.441+01:00</sv:value>
+          <sv:value>2012-09-07T17:12:38.151+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2012-09-06T14:43:37.276+01:00</sv:value>
+          <sv:value>2012-09-07T17:12:40.521+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>cea9ec45-6218-4a76-838b-a175e3e69d34</sv:value>
@@ -551,13 +551,13 @@ particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
           <sv:value>en</sv:value>
         </sv:property>
         <sv:property sv:name="ht:date" sv:type="Date">
-          <sv:value>2012-09-06T12:56:29.656+01:00</sv:value>
+          <sv:value>2012-09-07T12:12:25.101+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="ht:summary" sv:type="String">
-          <sv:value>This was built using the Hippo CMS7 platform. It's a great starting point for your project.</sv:value>
+          <sv:value>This was built with Hippo, and is a great starting point for your website project.</sv:value>
         </sv:property>
         <sv:property sv:name="ht:title" sv:type="String">
-          <sv:value>Hippo CMS7 Implementation</sv:value>
+          <sv:value>Hippo CMS Site Project</sv:value>
         </sv:property>
         <sv:node sv:name="hippotranslation:translations">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">

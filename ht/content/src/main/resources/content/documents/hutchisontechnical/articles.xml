@@ -57,7 +57,7 @@
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>f8d8bdc0-1ca2-40d4-976e-31f2fc0f8dc8</sv:value>
+        <sv:value>45fca10e-4973-42b1-a946-19addf4a345a</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -82,13 +82,13 @@
         <sv:value>2012-06-20T00:05:03.852+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2012-09-06T14:56:51.139+01:00</sv:value>
+        <sv:value>2012-09-07T17:11:07.230+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2012-09-06T14:56:53.786+01:00</sv:value>
+        <sv:value>2012-09-07T17:11:09.946+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>87da152c-3b2e-49f2-a4c8-7d7869bcd10c</sv:value>
@@ -109,10 +109,10 @@
         <sv:value>http://antonyh.co.uk/</sv:value>
       </sv:property>
       <sv:property sv:name="ht:summary" sv:type="String">
-        <sv:value>This is a to-do list that is really an article.</sv:value>
+        <sv:value>A quick summary of this project</sv:value>
       </sv:property>
       <sv:property sv:name="ht:title" sv:type="String">
-        <sv:value>TO DO LIST</sv:value>
+        <sv:value>To-do List</sv:value>
       </sv:property>
       <sv:node sv:name="hippotranslation:translations">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -127,8 +127,7 @@
           <sv:value>&lt;html&gt;
 &lt;body&gt;
 
-&lt;p&gt;This example article demonstrates the layout of the article and serves as a
-reminder on the tasks that I still need to do.&lt;/p&gt;
+&lt;p&gt;This example article demonstrates the layout of the article.&lt;/p&gt;
 &lt;h2&gt;About the article  &lt;/h2&gt;
 &lt;p&gt;There are many things we can say about an article.&lt;/p&gt;
 
@@ -151,6 +150,9 @@ the article in the channels.&lt;/li&gt;
 &lt;li&gt;add text to the articles and topics listing pages to make them more useful
 &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;For more information and a more up-to-date status of this project, visit the
+&lt;a href="https://github.com/antonyh"&gt;GitHub&lt;/a&gt; page.&lt;/p&gt;
 &lt;br/&gt;
 
 &lt;/body&gt;
@@ -197,7 +199,7 @@ the article in the channels.&lt;/li&gt;
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>f2158816-2c07-4e7b-b49d-e2093a227e3d</sv:value>
+        <sv:value>216b3aa4-6a03-431c-bfeb-1ada7e97c3fb</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -222,13 +224,13 @@ the article in the channels.&lt;/li&gt;
         <sv:value>2012-06-20T01:27:09.845+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2012-08-13T17:46:29.495+01:00</sv:value>
+        <sv:value>2012-09-07T17:11:23.096+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2012-08-13T17:46:31.116+01:00</sv:value>
+        <sv:value>2012-09-07T17:11:25.241+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>579e7945-9dbf-461c-96cb-b923d9e8817e</sv:value>

@@ -69,7 +69,7 @@
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>616d4fc8-9e64-44ac-8de2-009f79ba6139</sv:value>
+        <sv:value>6cd69a95-2364-4611-b108-83077848aeeb</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -94,13 +94,13 @@
         <sv:value>2010-01-21T10:34:11.055Z</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2012-09-06T14:52:39.459+01:00</sv:value>
+        <sv:value>2012-09-07T17:05:58.161+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2012-09-06T14:52:43.270+01:00</sv:value>
+        <sv:value>2012-09-07T17:06:02.108+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>ht-common-homepage-id</sv:value>
@@ -137,35 +137,14 @@ Alternatively, connect with Antony Hutchison via
 &lt;a href="https://www.twitter.com/antonyhutchison"&gt;Twitter&lt;/a&gt;, or
 &lt;a href="https://plus.google.com/110139725877645284331"&gt;Google+&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;What's Next? &lt;/h3&gt;
-&lt;p&gt;I was using a &lt;a href="article"&gt;content page&lt;/a&gt; to list plans for future
-work, but it's unlikely I'll maintain this so it's basically turned into a
-useful test for CSS changes. Looking at the GitHub site will be more fruitful.  
-&lt;/p&gt;
-&lt;h3&gt;Lorem ipsum  &lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam risus lectus,
-accumsan sed ultricies sit amet, mollis et neque. Cras sapien purus, dictum sit
-amet tempor sed, placerat ut quam. Duis enim urna, mollis sit amet consequat
-quis, fringilla vel leo. Etiam cursus, dolor ut cursus condimentum, justo risus
-consequat lorem, quis sagittis purus lacus at diam. Ut non lorem quam. Aenean ut
-felis nulla. Proin id sapien massa, quis mattis enim. Nulla ornare lorem ac
-neque consectetur molestie. Morbi velit orci, tristique ut scelerisque mattis,
-ullamcorper quis felis. In pellentesque tincidunt urna ac pretium. Nunc ac diam
-vitae ante cursus vulputate vel id mi.&lt;/p&gt;
+&lt;p&gt;Check out the page on &lt;a href="https://github.com/antonyh"&gt;GitHub&lt;/a&gt; for
+more information..  &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;</sv:value>
         </sv:property>
-        <sv:node sv:name="article">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:facetselect</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>ed08ed1f-6e59-40d7-ac17-942dda05ac6b</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-        </sv:node>
       </sv:node>
       <sv:node sv:name="ht:image">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -211,7 +190,7 @@ vitae ante cursus vulputate vel id mi.&lt;/p&gt;
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>abf909b4-1f1f-403f-b41d-d037e71ebbf4</sv:value>
+        <sv:value>7be2cf71-0e66-4f4c-8011-6374e00a6c45</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -236,13 +215,13 @@ vitae ante cursus vulputate vel id mi.&lt;/p&gt;
         <sv:value>2010-01-21T10:34:11.055Z</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2012-09-06T14:42:05.499+01:00</sv:value>
+        <sv:value>2012-09-07T17:10:39.993+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2012-09-06T14:42:07.954+01:00</sv:value>
+        <sv:value>2012-09-07T17:10:41.884+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>ht-common-about-us-id</sv:value>
@@ -251,7 +230,7 @@ vitae ante cursus vulputate vel id mi.&lt;/p&gt;
         <sv:value>en</sv:value>
       </sv:property>
       <sv:property sv:name="ht:summary" sv:type="String">
-        <sv:value>This site was built with Hippo CMS.</sv:value>
+        <sv:value>About this site</sv:value>
       </sv:property>
       <sv:property sv:name="ht:title" sv:type="String">
         <sv:value>About this site</sv:value>
@@ -269,11 +248,12 @@ vitae ante cursus vulputate vel id mi.&lt;/p&gt;
           <sv:value>&lt;html&gt;
 &lt;body&gt;
 
-&lt;p&gt;Hutchison Technical built this demo and put it on GitHub as a useful
-launchpad for Hippo developers. This site is built on the principles of content
-reuse and is intended to be reusable in itself as a starting point for other
-projects based on Hippo CMS 7.7. The document content is comprised primarily of
-three major document types.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.hutchisontechnical.co.uk/"&gt;Hutchison Technical&lt;/a&gt; built
+this demo and put it on &lt;a href="https://github.com/antonyh"&gt;GitHub&lt;/a&gt; as a
+useful launchpad for Hippo developers. This site is built on the principles of
+content reuse and is intended to be reusable in itself as a starting point for
+other projects based on Hippo CMS 7.7. The document content is comprised
+primarily of three major document types.&lt;/p&gt;
 
 &lt;p&gt;Text documents are the basic type of document provided by the Maven Archetype
 when a Hippo project is created. This page is a 'Text Document' and so is the
