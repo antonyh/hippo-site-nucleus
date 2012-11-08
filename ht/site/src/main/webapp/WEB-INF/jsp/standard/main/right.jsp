@@ -11,7 +11,7 @@
 			<c:if test="${item != document}">
           	<c:catch var="exception">
 	          	
-<%-- 				<c:if test="${not empty item.image}"> --%>
+ 				<c:if test="${not empty item.image.original}"> 
 					<hst:link var="img" hippobean="${item.image.original}"/>
 					<hst:link var="link" hippobean="${item}"/>
 					<a href="${link}">
@@ -19,7 +19,7 @@
 						<div>${item.summary}</div>
 					</div>
 					</a> 
-<%-- 				</c:if> --%>
+ 				</c:if> 
 
 			</c:catch>
 			</c:if>
