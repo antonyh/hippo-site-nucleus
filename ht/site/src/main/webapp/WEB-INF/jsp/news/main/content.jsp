@@ -42,12 +42,9 @@
 					</c:otherwise>
 				</c:choose>
 				
-				<div class="grid_8 alpha omega"><hst:html hippohtml="${document.html}" /></div>
-				 
-				 <%
-				 //display value propositions
-				 %>
-				<c:forEach var="item" items="${valueresult}">
+				<div class="grid_8 alpha omega"><hst:html hippohtml="${document.html}" /></div><%
+   				//display value propositions				 
+   				%><c:forEach var="item" items="${valueresult}">
 				<div class="grid_8 alpha omega">
 					<h2>${item.title}</h2>
 					<p>${item.text}</p>
