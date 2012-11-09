@@ -9,4 +9,7 @@ public class ValueProposition extends HippoDocument {
 		return getProperty("ht:title");
 	}
 
+	public String getText() {
+		return getProperty("ht:text");
+	}
 }
