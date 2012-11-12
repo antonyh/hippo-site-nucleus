@@ -11,7 +11,7 @@ public interface HomeListViewInfo extends GeneralListInfo {
 	 * have meaning and will be skipped when using the scope. The scope is
 	 * always relative to the current {@link Mount#getContentPath()}, even if it
 	 * starts with a <code>/</code>
-	 * 
+	 *
 	 * @return the scope to search below
 	 */
 	@Parameter(name = "scope", defaultValue = "/", displayName = "Scope")
@@ -28,10 +28,17 @@ public interface HomeListViewInfo extends GeneralListInfo {
 	@Color
 	String getBgColor();
 
-	@Parameter(name = "sortBy", displayName = "Sort By Property", defaultValue = "hippostdpubwf:publicationDate")
-	String getSortBy();
-
 	@Parameter(name = "sortOrder", displayName = "Sort Order", defaultValue = "descending")
 	String getSortOrder();
+
+	@Parameter(name = "sortBy", displayName = "Sort By Property", defaultValue = "ht:date, hippostdpubwf:publicationDate")
+	String getSortBy();
+
+	@Parameter(name = "docType", displayName = "Document Type", defaultValue = "ht:basedocument")
+	String getDocType();
+
+
+
+
 
 }

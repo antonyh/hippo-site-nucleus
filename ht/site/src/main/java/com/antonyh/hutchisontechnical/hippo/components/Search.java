@@ -27,7 +27,7 @@ public class Search extends BaseComponent {
 			// test namespaced query parameter
 			query = request.getParameter("query");
 		}
-		createAndExecuteSearch(this, request, info, scope, query);
+		createAndExecuteSearch(request, info, scope, query);
 	}
 
 }

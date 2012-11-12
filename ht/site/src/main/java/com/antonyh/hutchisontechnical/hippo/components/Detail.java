@@ -83,7 +83,7 @@ public class Detail extends BaseComponent {
 
 		setValuePropositions(request, response, doc);
 
-		createAndExecuteSearch(this, request, info, scopeBean, null, "sidebar");
+		createAndExecuteSearch(request, info, scopeBean, null, "sidebar");
 	}
 
 	private void setValuePropositions(final HstRequest request,

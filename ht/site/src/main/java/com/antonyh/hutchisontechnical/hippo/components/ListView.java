@@ -54,7 +54,7 @@ public class ListView extends BaseComponent {
 			throw new HstComponentException(
 					"For an Overview component there must be a content bean available to search below. Cannot create an overview");
 		}
-		createAndExecuteSearch(this, request, info, scopeBean, null);
+		createAndExecuteSearch(request, info, scopeBean, null);
 	}
 
 }

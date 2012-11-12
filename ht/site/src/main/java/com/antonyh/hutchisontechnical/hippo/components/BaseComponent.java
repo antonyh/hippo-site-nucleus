@@ -24,22 +24,21 @@ public abstract class BaseComponent extends BaseHstComponent {
 	public static final Logger log = LoggerFactory
 			.getLogger(BaseComponent.class);
 
-	public void createAndExecuteSearch(final BaseComponent bc,
-			final HstRequest request, final GeneralListInfo info,
-			final HippoBean scope, final String query,
-			final String attributePrefix) throws HstComponentException {
+	public void createAndExecuteSearch(final HstRequest request,
+			final GeneralListInfo info, final HippoBean scope,
+			final String query, final String attributePrefix) throws HstComponentException {
 
-		createAndExecuteSearch(bc, request, info, scope, query,
-				attributePrefix, null);
+		createAndExecuteSearch(request, info, scope, query, attributePrefix,
+				null);
 
 	}
 
-	public void createAndExecuteSearch(final BaseComponent bc,
-			final HstRequest request, final GeneralListInfo info,
-			final HippoBean scope, final String query)
+	public void createAndExecuteSearch(final HstRequest request,
+			final GeneralListInfo info, final HippoBean scope,
+			final String query)
 			throws HstComponentException {
 
-		createAndExecuteSearch(bc, request, info, scope, query, "", null);
+		createAndExecuteSearch(request, info, scope, query, "", null);
 
 	}
 
@@ -47,10 +46,9 @@ public abstract class BaseComponent extends BaseHstComponent {
 	 * Creates and executes a search, and puts a {@link HstQueryResult},
 	 * {@link PageableListInfo}, crPage, query and optionally a {@link List
 	 * <Integer>} of pages on the request
-	 * 
+	 *
 	 * (final HstRequest request, final GeneralListInfo info, final HippoBean
 	 * scope, final String query)
-	 * 
 	 * @param request
 	 * @param info
 	 * @param scope
@@ -60,10 +58,10 @@ public abstract class BaseComponent extends BaseHstComponent {
 	 *            empty, it will be ignored
 	 */
 
-	protected void createAndExecuteSearch(final BaseComponent bc,
-			final HstRequest request, final GeneralListInfo info,
-			final HippoBean scope, final String query,
-			final String attributePrefix, final String topic)
+	protected void createAndExecuteSearch(final HstRequest request,
+			final GeneralListInfo info, final HippoBean scope,
+			final String query, final String attributePrefix,
+			final String topic)
 			throws HstComponentException {
 		if (scope == null) {
 			throw new HstComponentException(
@@ -97,9 +95,18 @@ public abstract class BaseComponent extends BaseHstComponent {
 		}
 
 		try {
+
 			@SuppressWarnings("unchecked")
 			HstQuery hstQuery = getQueryManager(request).createQuery(scope,
 					filterClass, true);
+
+
+//			log.trace(attributePrefix + ": query scope is {}", scope.getPath());
+//			log.trace(attributePrefix + ": initial query is {}", hstQuery.getQueryAsString(true));
+//			log.trace(attributePrefix + ": filterClass is {}", filterClass.getName());
+//			log.trace(attributePrefix + ": doctype is {}", docType);
+
+
 			hstQuery.setLimit(pageSize);
 			hstQuery.setOffset(pageSize * (crPage - 1));
 
@@ -135,9 +142,12 @@ public abstract class BaseComponent extends BaseHstComponent {
 				hstQuery.setFilter(f);
 			}
 
-			log.trace("query is {}", hstQuery.getQueryAsString(true));
-			// log.trace("--");
+//			log.trace(attributePrefix + ": query is {}", hstQuery.getQueryAsString(true));
+
 			HstQueryResult result = hstQuery.execute();
+
+//			log.trace(attributePrefix + ":size = {}",result.getSize());
+//			log.trace("--");
 
 			request.setAttribute(attributePrefix + "result", result);
 			request.setAttribute(attributePrefix + "info", info);

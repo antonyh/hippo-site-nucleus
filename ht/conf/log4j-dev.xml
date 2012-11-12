@@ -154,6 +154,11 @@
     <level value="info"/>
   </logger>
 
+  <!-- customised logging here... debug application on dev -->
+  <logger name="com.antonyh">
+    <level value="trace"/>
+  </logger>
+  
   <root>
     <level value="warn"/>
     <appender-ref ref="cms"/>

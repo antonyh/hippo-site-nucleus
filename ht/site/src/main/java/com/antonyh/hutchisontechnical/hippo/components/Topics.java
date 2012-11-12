@@ -28,7 +28,7 @@ public class Topics extends BaseComponent {
 					"For an Overview component there must be a content bean available to search below. Cannot create an overview");
 		}
 
-		createAndExecuteSearch(this, request, info, scope, null);
+		createAndExecuteSearch(request, info, scope, null);
 	}
 
 }
