@@ -135,7 +135,7 @@ public abstract class BaseComponent extends BaseHstComponent {
 				hstQuery.setFilter(f);
 			}
 
-			// log.trace("query is {}", hstQuery.getQueryAsString(true));
+			log.trace("query is {}", hstQuery.getQueryAsString(true));
 			// log.trace("--");
 			HstQueryResult result = hstQuery.execute();
 
