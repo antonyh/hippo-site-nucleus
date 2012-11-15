@@ -6,6 +6,7 @@
         <hst:link var="link" hippobean="${item}"/>
 			<c:if test="${item != document}">
           	<c:catch var="exception">
+          	<!-- ${item} -->
  				<c:if test="${not empty item.image.original}"> 
    		            <hst:cmseditlink hippobean="${item}"/>
 					<hst:link var="img" hippobean="${item.image.original}"/>
