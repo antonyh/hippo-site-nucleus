@@ -47,26 +47,26 @@ html {
 }
 
 body {
-	font-family: "Lato", Helvetica, sans-serif;
+	font-family: "Ledger", Helvetica, sans-serif;
 	font-weight: 300;
 }
 
 h1 {
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Quando", Helvetica, sans-serif;
 	font-size: 1.6em;
 	padding-top: 1.2em;
 	padding-bottom: 0.1em;
 }
 
 h2 {
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Quando", Helvetica, sans-serif;
 	font-size: 1.4em;
 	padding-top: 1.2em;
 	padding-bottom: 0.1em;
 }
 
 h3 {
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Quando", Helvetica, sans-serif;
 	font-size: 1.2em;
 	padding-top: 0.7em;
 	padding-bottom: 0.1em;
@@ -467,7 +467,7 @@ body {
 	div#nav {
 		padding-bottom: 1em;
 	}
- 
+
 	article {
 		border-bottom: 1px solid #dddddd;
 		margin-bottom: 3em;
