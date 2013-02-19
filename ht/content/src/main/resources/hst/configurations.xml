@@ -53,4 +53,12 @@
       <sv:value>hst:configuration</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="subsite">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../ht-subsite-common</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>
