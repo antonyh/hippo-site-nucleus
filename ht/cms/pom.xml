@@ -74,6 +74,18 @@
       </exclusions>
     </dependency>
    
+   <!-- analytics -->
+   
+	<dependency>
+	  <groupId>org.onehippo.cms7</groupId>
+	  <artifactId>hippo-addon-google-analytics-frontend</artifactId>
+	</dependency>
+	 
+	<dependency>
+	  <groupId>org.onehippo.cms7</groupId>
+	  <artifactId>hippo-addon-google-analytics-repository</artifactId>
+	</dependency>
+   
   </dependencies>
 
   <build>
