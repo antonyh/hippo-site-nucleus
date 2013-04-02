@@ -198,6 +198,7 @@ more information..  &lt;/p&gt;
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>common/about</sv:value>
+        <sv:value>common/about/about[2]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:holder" sv:type="String">
         <sv:value>admin</sv:value>
@@ -222,6 +223,170 @@ more information..  &lt;/p&gt;
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
         <sv:value>2012-09-07T17:10:41.884+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>ht-common-about-us-id</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="ht:summary" sv:type="String">
+        <sv:value>About this site</sv:value>
+      </sv:property>
+      <sv:property sv:name="ht:title" sv:type="String">
+        <sv:value>About this site</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="ht:body">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;&lt;a href="http://www.hutchisontechnical.co.uk/"&gt;Hutchison Technical&lt;/a&gt; built
+this demo and put it on &lt;a href="https://github.com/antonyh"&gt;GitHub&lt;/a&gt; as a
+useful launchpad for Hippo developers. This site is built on the principles of
+content reuse and is intended to be reusable in itself as a starting point for
+other projects based on Hippo CMS 7.7. The document content is comprised
+primarily of three major document types.&lt;/p&gt;
+
+&lt;p&gt;Text documents are the basic type of document provided by the Maven Archetype
+when a Hippo project is created. This page is a 'Text Document' and so is the
+homepage. They have nothing more than a title, summary, body text, and an image.
+&lt;/p&gt;
+
+&lt;p&gt;News documents build upon this by having a date timestamp. This is useful for
+news so that it can be listed in date order. I've added a topic property as
+well; I'll come back to that in a moment.&lt;/p&gt;
+
+&lt;p&gt;The article document is somewhat like a news article, except it isn't dated.
+They are not time-sensitive, so they don't need this information. They also have
+topics like news, and some additional information to display credits for images
+I've used from internet resources.&lt;/p&gt;
+
+&lt;p&gt;The 'topics' of these pages enables the author to assign what are basically
+tags to the document. The site uses these tags in two ways. Firstly it can list
+all the pages by tag, providing a natural navigation model. Secondly, it can
+pull in more content when displaying the page based on the topics. A secondary
+type of document has been created named 'Value Proposition' that also has been
+tagged with topics and has some text. An article shows all the text from these
+documents after the main body of the text, giving an opportunity to augment the
+content of the page with more general information that is directly relevant to
+the document. It's a fairly simple system but works well in practice, and can be
+enhanced by adding images and so on to the content included in the value
+propositions.&lt;/p&gt;
+&lt;h2&gt;Design &lt;/h2&gt;
+&lt;p&gt;The design of the site is intended to meet a few main goals:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;it originally conformed to a 960 grid system&lt;/li&gt;
+&lt;li&gt;it has been retrofitted with media queries to enable a responsive design to
+work on mobile, tablet, and desktop&lt;/li&gt;
+&lt;li&gt;it's the design I intend to use on my own website&lt;/li&gt;
+&lt;li&gt;it should be trivial to replace this with your own visual styles&lt;/li&gt;
+&lt;li&gt;I wanted to use images as links to articles where possible&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When making your changes to the layout and CSS, the main aspects are
+replacing the single CSS file, adding static images to the project, and probably
+adding a logo image to the header. The site name is configured in the channel
+settings. You may also choose to add more social media items to the footer
+(although this isn't current best practice I think it works fairly well because
+of the CSS in place), and maybe change the footer text. &lt;/p&gt;
+&lt;h2&gt;Sort Order and Lists  &lt;/h2&gt;
+&lt;p&gt;The sort properties and direction of sorting are set in the component
+interfaces as annotations on the methods. There's also other settings that can
+be done here, such as page size. I've set them up to meet my needs, but you
+might want to make changes depending on your requirements.&lt;/p&gt;
+&lt;h2&gt;Licensing and Copyright &lt;/h2&gt;
+&lt;p&gt;This work is licensed under a &lt;strong&gt;simplified BSD license&lt;/strong&gt;,
+a permissive free software licence.&lt;/p&gt;
+
+&lt;p&gt;Copyright (c) 2012, Hutchison Technical Ltd. All rights reserved.&lt;/p&gt;
+
+&lt;p&gt;Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:&lt;/p&gt;
+
+&lt;p&gt;1. Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.&lt;/p&gt;
+
+&lt;p&gt;2. Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.&lt;/p&gt;
+
+&lt;p&gt;THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;/p&gt;
+
+&lt;p&gt;The views and conclusions contained in the software and documentation are
+those of the authors and should not be interpreted as representing official
+policies, either expressed or implied, of Hutchison Technical Ltd. &lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="ht:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>042c4b4b-f225-49f9-83dc-82c851d140b3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="about">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>ht:textdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a264a809-a8b8-49b4-a370-857388502d82</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>common/about</sv:value>
+        <sv:value>common/about/about</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-01-21T10:34:11.055Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2012-09-07T17:10:39.993+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>ht-common-about-us-id</sv:value>

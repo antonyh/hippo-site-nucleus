@@ -74,6 +74,14 @@
       <groupId>org.onehippo.cms7.hst.components</groupId>
       <artifactId>hst-security</artifactId>
     </dependency>
+	
+	<!-- analytics -->
+	<dependency>
+	  <groupId>org.onehippo.cms7</groupId>
+	  <artifactId>hippo-addon-google-analytics-hst</artifactId>
+	</dependency>
+	
+	
   </dependencies>
 
   <build>

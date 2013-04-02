@@ -17,5 +17,11 @@
     <hst:headContributions categoryIncludes="scripts"/>
     <hst:include ref="footer"/>
 
+	<c:if test="${not composermode}">
+		<ga:accountId/>
+		<hst:link var="googleAnalytics" path="/resources/google-analytics.js"/>
+		<script src="${googleAnalytics}" type="text/javascript"></script>
+	</c:if>
+	
   </body>
 </html>

@@ -9,4 +9,4 @@ echo Exit Code = %ERRORLEVEL%
 if not "%ERRORLEVEL%" == "0" exit /b
 
   
-call mvn -P cargo.run -Drepo.path=t:/hippo/repo 
+call mvn -P cargo.run -Drepo.path=D:/Workspace/hipporepo
