@@ -135,6 +135,22 @@ article h3 {
 	padding-top: 0;
 	line-height: 1.1em;
 	padding-bottom: 0.65em;
+	padding-top: 0.15em;
+}
+
+div.relatedtopics {
+	padding-bottom: 1.5em;
+}
+
+div.relatedtopics h4{
+	font-style: italic;
+	font-size: 75%;
+	color: #444444;
+}
+
+div.topic {
+	border-top: 1px solid #c8dbed;
+	margin-bottom: 0.5em;
 }
 
 div#nav {

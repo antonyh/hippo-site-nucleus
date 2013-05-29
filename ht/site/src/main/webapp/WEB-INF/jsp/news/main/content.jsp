@@ -45,9 +45,17 @@
 				<div class="grid_8 alpha omega"><hst:html hippohtml="${document.html}" /></div><%
    				//display value propositions				 
    				%><c:forEach var="item" items="${valueresult}">
-				<div class="grid_8 alpha omega">
-					<h2>${item.title}</h2>
+				<div class="grid_8 alpha omega topic">
+					<h3>${item.title}</h3>
 					<p>${item.text}</p>
+					
+					<div class="relatedtopics">
+					<span>Read more about </span>
+					<c:forEach var="topic" items="${item.topics}" varStatus="status">
+						<hst:link var="link" hippobean="${topic}" />
+						<span><a href="${link}">${topic.title}</a></span><c:if test="${!status.last}">, </c:if>
+					</c:forEach>
+					</div>
 				</div>
 				</c:forEach>
 			</article>
