@@ -44,7 +44,7 @@
 
     <div class="grid_12 alpha omega">
 
-      <c:forEach var="item" items="${result.hippoBeans}">
+      <c:forEach var="item" items="${result.hippoBeans}" varStatus="status">
  
           <hst:cmseditlink hippobean="${item}"/>
 

@@ -31,7 +31,7 @@ public interface HomeListViewInfo extends GeneralListInfo {
 	@Parameter(name = "sortOrder", displayName = "Sort Order", defaultValue = "descending")
 	String getSortOrder();
 
-	@Parameter(name = "sortBy", displayName = "Sort By Property", defaultValue = "ht:date, hippostdpubwf:publicationDate")
+	@Parameter(name = "sortBy", displayName = "Sort By Property", defaultValue = "hippostdpubwf:publicationDate")
 	String getSortBy();
 
 	@Parameter(name = "docType", displayName = "Document Type", defaultValue = "ht:basedocument")
