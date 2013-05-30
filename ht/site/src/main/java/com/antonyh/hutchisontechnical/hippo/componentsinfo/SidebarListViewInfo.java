@@ -6,7 +6,7 @@ public interface SidebarListViewInfo extends ListViewInfo {
 	@Parameter(name = "pageSize", defaultValue = "50", displayName = "Page Size")
 	int getPageSize();
 
-	@Parameter(name = "sortBy", displayName = "Sort By Property", defaultValue = "ht:date, hippostdpubwf:publicationDate")
+	@Parameter(name = "sortBy", displayName = "Sort By Property", defaultValue = "hippostdpubwf:publicationDate")
 	String getSortBy();
 
 	@Parameter(name = "docType", displayName = "Document Type", defaultValue = "ht:basedocument")
